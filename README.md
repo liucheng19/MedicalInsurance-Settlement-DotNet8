@@ -13,5 +13,6 @@
 7. 全链路日志持久化，Serilog 实现文件 + 数据库双存档，请求、异常、堆栈信息可完整溯源。
 8. 稀缺差异化项目，市面极少 C# 医保结算微服务 Demo，适配医院、医保政务招标项目场景。
 ## 运行环境
-JDK 11、.NET 8 SDK、MySQL 8.0、Nacos 2.3.2
 Trae CN AI开发IDE
+JDK 11、.NET 8 SDK、MySQL 8.0、Nacos 2.3.2
+
