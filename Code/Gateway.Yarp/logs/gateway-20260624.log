@@ -1,0 +1,720 @@
+2026-06-24 19:49:43.669 +08:00 [INF] start up udp server....., port: 55640
+2026-06-24 19:49:43.665 +08:00 [INF] 开始从Nacos初始化YARP服务配置...
+2026-06-24 19:49:43.839 +08:00 [INF] Gateway.Yarp 网关启动完成，监听端口 5000
+2026-06-24 19:49:43.880 +08:00 [INF] init new ips(0) service: DEFAULT_GROUP@@ServiceCityA@@DEFAULT -> []
+2026-06-24 19:49:43.886 +08:00 [INF] current ips:(0) service: DEFAULT_GROUP@@ServiceCityA@@DEFAULT -> []
+2026-06-24 19:49:43.892 +08:00 [INF] 从Nacos加载服务 ServiceCityA，实例数量: 0
+2026-06-24 19:49:43.913 +08:00 [INF] init new ips(1) service: DEFAULT_GROUP@@ServiceCityB@@DEFAULT -> [{"instanceId":"127.0.0.1#5002#DEFAULT#DEFAULT_GROUP@@ServiceCityB","ip":"127.0.0.1","port":5002,"weight":100,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@ServiceCityB","metadata":{"HOST_OS":"Microsoft Windows NT 10.0.19045.0","preserved.register.source":"ASPNET_CORE","DOTNET_VERSION":"8.0.28"}}]
+2026-06-24 19:49:43.914 +08:00 [INF] current ips:(1) service: DEFAULT_GROUP@@ServiceCityB@@DEFAULT -> [{"instanceId":"127.0.0.1#5002#DEFAULT#DEFAULT_GROUP@@ServiceCityB","ip":"127.0.0.1","port":5002,"weight":100,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@ServiceCityB","metadata":{"HOST_OS":"Microsoft Windows NT 10.0.19045.0","preserved.register.source":"ASPNET_CORE","DOTNET_VERSION":"8.0.28"}}]
+2026-06-24 19:49:43.917 +08:00 [INF] 从Nacos加载服务 ServiceCityB，实例数量: 1
+2026-06-24 19:49:43.919 +08:00 [INF] init new ips(1) service: DEFAULT_GROUP@@ServiceCityC@@DEFAULT -> [{"instanceId":"127.0.0.1#5003#DEFAULT#DEFAULT_GROUP@@ServiceCityC","ip":"127.0.0.1","port":5003,"weight":100,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@ServiceCityC","metadata":{"HOST_OS":"Microsoft Windows NT 10.0.19045.0","preserved.register.source":"ASPNET_CORE","DOTNET_VERSION":"8.0.28"}}]
+2026-06-24 19:49:43.920 +08:00 [INF] current ips:(1) service: DEFAULT_GROUP@@ServiceCityC@@DEFAULT -> [{"instanceId":"127.0.0.1#5003#DEFAULT#DEFAULT_GROUP@@ServiceCityC","ip":"127.0.0.1","port":5003,"weight":100,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@ServiceCityC","metadata":{"HOST_OS":"Microsoft Windows NT 10.0.19045.0","preserved.register.source":"ASPNET_CORE","DOTNET_VERSION":"8.0.28"}}]
+2026-06-24 19:49:43.921 +08:00 [INF] 从Nacos加载服务 ServiceCityC，实例数量: 1
+2026-06-24 19:49:43.924 +08:00 [INF] YARP配置已更新: 3 条路由, 3 个集群
+2026-06-24 19:49:44.470 +08:00 [INF] received push data: {"type":"dom","data":"{\"name\":\"DEFAULT_GROUP@@ServiceCityA\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1782301784391,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":41039303937200} from 192.168.31.35:58275
+2026-06-24 19:49:44.511 +08:00 [INF] received push data: {"type":"dom","data":"{\"name\":\"DEFAULT_GROUP@@ServiceCityC\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"127.0.0.1#5003#DEFAULT#DEFAULT_GROUP@@ServiceCityC\",\"ip\":\"127.0.0.1\",\"port\":5003,\"weight\":100.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"DEFAULT_GROUP@@ServiceCityC\",\"metadata\":{\"HOST_OS\":\"Microsoft Windows NT 10.0.19045.0\",\"preserved.register.source\":\"ASPNET_CORE\",\"DOTNET_VERSION\":\"8.0.28\"},\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000,\"ipDeleteTimeout\":30000}],\"lastRefTime\":1782301784500,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":41039413116900} from 192.168.31.35:58275
+2026-06-24 19:49:44.523 +08:00 [INF] received push data: {"type":"dom","data":"{\"name\":\"DEFAULT_GROUP@@ServiceCityB\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"127.0.0.1#5002#DEFAULT#DEFAULT_GROUP@@ServiceCityB\",\"ip\":\"127.0.0.1\",\"port\":5002,\"weight\":100.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"DEFAULT_GROUP@@ServiceCityB\",\"metadata\":{\"HOST_OS\":\"Microsoft Windows NT 10.0.19045.0\",\"preserved.register.source\":\"ASPNET_CORE\",\"DOTNET_VERSION\":\"8.0.28\"},\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000,\"ipDeleteTimeout\":30000}],\"lastRefTime\":1782301784500,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":41039413145300} from 192.168.31.35:58275
+2026-06-24 19:49:53.980 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 19:49:53.980 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:49:53.989 +08:00 [INF] Active health state of destination `ServiceCityB_1` on cluster `ServiceCityB` is set to '"Healthy"'.
+2026-06-24 19:49:53.990 +08:00 [INF] Active health state of destination `ServiceCityC_1` on cluster `ServiceCityC` is set to '"Healthy"'.
+2026-06-24 19:50:04.010 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:50:04.011 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 19:50:14.024 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:50:14.025 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 19:50:15.735 +08:00 [INF] received push data: {"type":"dom","data":"{\"name\":\"DEFAULT_GROUP@@ServiceCityB\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1782301815734,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":41070646197200} from 192.168.31.35:58275
+2026-06-24 19:50:15.736 +08:00 [INF] removed ips (1) service: DEFAULT_GROUP@@ServiceCityB@@DEFAULT -> [{"instanceId":"127.0.0.1#5002#DEFAULT#DEFAULT_GROUP@@ServiceCityB","ip":"127.0.0.1","port":5002,"weight":100,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@ServiceCityB","metadata":{"HOST_OS":"Microsoft Windows NT 10.0.19045.0","preserved.register.source":"ASPNET_CORE","DOTNET_VERSION":"8.0.28"}}]
+2026-06-24 19:50:15.737 +08:00 [INF] current ips:(0) service: DEFAULT_GROUP@@ServiceCityB@@DEFAULT -> []
+2026-06-24 19:50:15.883 +08:00 [INF] HTTP GET /health responded 200 in 7.3802 ms
+2026-06-24 19:50:24.003 +08:00 [INF] 服务 ServiceCityB 实例变化: 0 个实例
+2026-06-24 19:50:24.030 +08:00 [INF] YARP配置已更新: 3 条路由, 3 个集群
+2026-06-24 19:50:24.263 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:50:26.366 +08:00 [WRN] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` failed.
+System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (127.0.0.1:5002)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Health.ActiveHealthCheckMonitor.ProbeDestinationAsync(ClusterState cluster, DestinationState destination, TimeSpan timeout)
+2026-06-24 19:50:34.285 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:50:35.251 +08:00 [INF] HTTP POST /api/cityc/api/settlement/submit responded 404 in 0.1530 ms
+2026-06-24 19:50:44.294 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:50:54.305 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:51:04.412 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:51:08.524 +08:00 [INF] HTTP GET /api/cityc/health responded 404 in 0.0632 ms
+2026-06-24 19:51:14.422 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:51:24.437 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:51:57.365 +08:00 [INF] 开始从Nacos初始化YARP服务配置...
+2026-06-24 19:51:57.368 +08:00 [INF] start up udp server....., port: 55645
+2026-06-24 19:51:57.511 +08:00 [INF] Gateway.Yarp 网关启动完成，监听端口 5000
+2026-06-24 19:51:57.536 +08:00 [INF] init new ips(0) service: DEFAULT_GROUP@@ServiceCityA@@DEFAULT -> []
+2026-06-24 19:51:57.540 +08:00 [INF] current ips:(0) service: DEFAULT_GROUP@@ServiceCityA@@DEFAULT -> []
+2026-06-24 19:51:57.543 +08:00 [INF] 从Nacos加载服务 ServiceCityA，实例数量: 0
+2026-06-24 19:51:57.547 +08:00 [INF] init new ips(0) service: DEFAULT_GROUP@@ServiceCityB@@DEFAULT -> []
+2026-06-24 19:51:57.547 +08:00 [INF] current ips:(0) service: DEFAULT_GROUP@@ServiceCityB@@DEFAULT -> []
+2026-06-24 19:51:57.549 +08:00 [INF] 从Nacos加载服务 ServiceCityB，实例数量: 0
+2026-06-24 19:51:57.559 +08:00 [INF] init new ips(1) service: DEFAULT_GROUP@@ServiceCityC@@DEFAULT -> [{"instanceId":"127.0.0.1#5003#DEFAULT#DEFAULT_GROUP@@ServiceCityC","ip":"127.0.0.1","port":5003,"weight":100,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@ServiceCityC","metadata":{"HOST_OS":"Microsoft Windows NT 10.0.19045.0","preserved.register.source":"ASPNET_CORE","DOTNET_VERSION":"8.0.28"}}]
+2026-06-24 19:51:57.560 +08:00 [INF] current ips:(1) service: DEFAULT_GROUP@@ServiceCityC@@DEFAULT -> [{"instanceId":"127.0.0.1#5003#DEFAULT#DEFAULT_GROUP@@ServiceCityC","ip":"127.0.0.1","port":5003,"weight":100,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@ServiceCityC","metadata":{"HOST_OS":"Microsoft Windows NT 10.0.19045.0","preserved.register.source":"ASPNET_CORE","DOTNET_VERSION":"8.0.28"}}]
+2026-06-24 19:51:57.561 +08:00 [INF] 从Nacos加载服务 ServiceCityC，实例数量: 1
+2026-06-24 19:51:57.563 +08:00 [INF] YARP配置已更新: 3 条路由, 3 个集群
+2026-06-24 19:51:58.000 +08:00 [INF] received push data: {"type":"dom","data":"{\"name\":\"DEFAULT_GROUP@@ServiceCityA\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1782301917996,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":41172908532100} from 192.168.31.35:58275
+2026-06-24 19:51:58.106 +08:00 [INF] received push data: {"type":"dom","data":"{\"name\":\"DEFAULT_GROUP@@ServiceCityB\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1782301918105,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":41173017306200} from 192.168.31.35:58275
+2026-06-24 19:51:58.109 +08:00 [INF] received push data: {"type":"dom","data":"{\"name\":\"DEFAULT_GROUP@@ServiceCityC\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"127.0.0.1#5003#DEFAULT#DEFAULT_GROUP@@ServiceCityC\",\"ip\":\"127.0.0.1\",\"port\":5003,\"weight\":100.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"DEFAULT_GROUP@@ServiceCityC\",\"metadata\":{\"HOST_OS\":\"Microsoft Windows NT 10.0.19045.0\",\"preserved.register.source\":\"ASPNET_CORE\",\"DOTNET_VERSION\":\"8.0.28\"},\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000,\"ipDeleteTimeout\":30000}],\"lastRefTime\":1782301918105,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":41173017314700} from 192.168.31.35:58275
+2026-06-24 19:52:07.601 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:52:07.615 +08:00 [INF] Active health state of destination `ServiceCityC_1` on cluster `ServiceCityC` is set to '"Healthy"'.
+2026-06-24 19:52:13.812 +08:00 [INF] Proxying to http://127.0.0.1:5003/health HTTP/2 RequestVersionOrLower 
+2026-06-24 19:52:13.820 +08:00 [INF] Received HTTP/1.1 response 200.
+2026-06-24 19:52:13.831 +08:00 [INF] HTTP GET /api/cityc/health responded 200 in 34.6629 ms
+2026-06-24 19:52:17.622 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:52:27.636 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:52:37.650 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:52:47.668 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:52:57.681 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:53:00.600 +08:00 [INF] new ips (1) service: DEFAULT_GROUP@@ServiceCityA@@DEFAULT -> [{"instanceId":"127.0.0.1#5001#DEFAULT#DEFAULT_GROUP@@ServiceCityA","ip":"127.0.0.1","port":5001,"weight":100,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@ServiceCityA","metadata":{"HOST_OS":"Microsoft Windows NT 10.0.19045.0","preserved.register.source":"ASPNET_CORE","DOTNET_VERSION":"8.0.28"}}]
+2026-06-24 19:53:00.600 +08:00 [INF] current ips:(1) service: DEFAULT_GROUP@@ServiceCityA@@DEFAULT -> [{"instanceId":"127.0.0.1#5001#DEFAULT#DEFAULT_GROUP@@ServiceCityA","ip":"127.0.0.1","port":5001,"weight":100,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@ServiceCityA","metadata":{"HOST_OS":"Microsoft Windows NT 10.0.19045.0","preserved.register.source":"ASPNET_CORE","DOTNET_VERSION":"8.0.28"}}]
+2026-06-24 19:53:00.647 +08:00 [INF] new ips (1) service: DEFAULT_GROUP@@ServiceCityB@@DEFAULT -> [{"instanceId":"127.0.0.1#5002#DEFAULT#DEFAULT_GROUP@@ServiceCityB","ip":"127.0.0.1","port":5002,"weight":100,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@ServiceCityB","metadata":{"HOST_OS":"Microsoft Windows NT 10.0.19045.0","preserved.register.source":"ASPNET_CORE","DOTNET_VERSION":"8.0.28"}}]
+2026-06-24 19:53:00.649 +08:00 [INF] current ips:(1) service: DEFAULT_GROUP@@ServiceCityB@@DEFAULT -> [{"instanceId":"127.0.0.1#5002#DEFAULT#DEFAULT_GROUP@@ServiceCityB","ip":"127.0.0.1","port":5002,"weight":100,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@ServiceCityB","metadata":{"HOST_OS":"Microsoft Windows NT 10.0.19045.0","preserved.register.source":"ASPNET_CORE","DOTNET_VERSION":"8.0.28"}}]
+2026-06-24 19:53:07.657 +08:00 [INF] 服务 ServiceCityA 实例变化: 1 个实例
+2026-06-24 19:53:07.658 +08:00 [INF] 服务 ServiceCityB 实例变化: 1 个实例
+2026-06-24 19:53:07.659 +08:00 [INF] YARP配置已更新: 3 条路由, 3 个集群
+2026-06-24 19:53:07.690 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:53:17.696 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:53:17.730 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 19:53:17.730 +08:00 [INF] Active health state of destination `ServiceCityB_1` on cluster `ServiceCityB` is set to '"Healthy"'.
+2026-06-24 19:53:19.717 +08:00 [WRN] Probing destination `ServiceCityA_1` on cluster `ServiceCityA` failed.
+System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (127.0.0.1:5001)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Health.ActiveHealthCheckMonitor.ProbeDestinationAsync(ClusterState cluster, DestinationState destination, TimeSpan timeout)
+2026-06-24 19:53:19.733 +08:00 [INF] Active health state of destination `ServiceCityA_1` on cluster `ServiceCityA` is set to '"Healthy"'.
+2026-06-24 19:53:20.327 +08:00 [INF] Proxying to http://127.0.0.1:5001/health HTTP/2 RequestVersionOrLower 
+2026-06-24 19:53:22.374 +08:00 [WRN] "Request": An error was encountered before receiving a response.
+System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (127.0.0.1:5001)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer, CancellationToken cancellationToken)
+2026-06-24 19:53:22.377 +08:00 [ERR] HTTP GET /api/citya/health responded 502 in 2051.0872 ms
+2026-06-24 19:53:22.380 +08:00 [INF] Proxying to http://127.0.0.1:5002/health HTTP/2 RequestVersionOrLower 
+2026-06-24 19:53:22.384 +08:00 [INF] Received HTTP/1.1 response 200.
+2026-06-24 19:53:22.385 +08:00 [INF] HTTP GET /api/cityb/health responded 200 in 4.9779 ms
+2026-06-24 19:53:22.397 +08:00 [INF] Proxying to http://127.0.0.1:5003/health HTTP/2 RequestVersionOrLower 
+2026-06-24 19:53:22.397 +08:00 [INF] Received HTTP/1.1 response 200.
+2026-06-24 19:53:22.398 +08:00 [INF] HTTP GET /api/cityc/health responded 200 in 1.3253 ms
+2026-06-24 19:53:27.706 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:53:27.738 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 19:53:31.787 +08:00 [WRN] Probing destination `ServiceCityA_1` on cluster `ServiceCityA` failed.
+System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (127.0.0.1:5001)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Health.ActiveHealthCheckMonitor.ProbeDestinationAsync(ClusterState cluster, DestinationState destination, TimeSpan timeout)
+2026-06-24 19:53:31.789 +08:00 [WRN] Active health state of destination `ServiceCityA_1` on cluster `ServiceCityA` is set to 'Unhealthy'.
+2026-06-24 19:53:37.722 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:53:39.797 +08:00 [WRN] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` failed.
+System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (127.0.0.1:5002)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Health.ActiveHealthCheckMonitor.ProbeDestinationAsync(ClusterState cluster, DestinationState destination, TimeSpan timeout)
+2026-06-24 19:53:43.833 +08:00 [WRN] Probing destination `ServiceCityA_1` on cluster `ServiceCityA` failed.
+System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (127.0.0.1:5001)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Health.ActiveHealthCheckMonitor.ProbeDestinationAsync(ClusterState cluster, DestinationState destination, TimeSpan timeout)
+2026-06-24 19:53:47.731 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:53:49.878 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 19:53:53.964 +08:00 [INF] Probing destination `ServiceCityA_1` on cluster `ServiceCityA` completed with the response code `200`.
+2026-06-24 19:53:53.965 +08:00 [INF] Active health state of destination `ServiceCityA_1` on cluster `ServiceCityA` is set to '"Healthy"'.
+2026-06-24 19:53:57.749 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:53:59.901 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 19:54:03.969 +08:00 [INF] Probing destination `ServiceCityA_1` on cluster `ServiceCityA` completed with the response code `200`.
+2026-06-24 19:54:07.759 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:54:09.913 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 19:54:13.978 +08:00 [INF] Probing destination `ServiceCityA_1` on cluster `ServiceCityA` completed with the response code `200`.
+2026-06-24 19:54:17.768 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:54:19.923 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 19:54:23.984 +08:00 [INF] Probing destination `ServiceCityA_1` on cluster `ServiceCityA` completed with the response code `200`.
+2026-06-24 19:54:27.773 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:54:29.940 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 19:54:33.993 +08:00 [INF] Probing destination `ServiceCityA_1` on cluster `ServiceCityA` completed with the response code `200`.
+2026-06-24 19:54:37.779 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:54:39.943 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 19:54:40.240 +08:00 [INF] Proxying to http://127.0.0.1:5001/health HTTP/2 RequestVersionOrLower 
+2026-06-24 19:54:40.242 +08:00 [INF] Received HTTP/1.1 response 200.
+2026-06-24 19:54:40.245 +08:00 [INF] HTTP GET /api/citya/health responded 200 in 5.0702 ms
+2026-06-24 19:54:40.255 +08:00 [INF] Proxying to http://127.0.0.1:5002/health HTTP/2 RequestVersionOrLower 
+2026-06-24 19:54:40.257 +08:00 [INF] Received HTTP/1.1 response 200.
+2026-06-24 19:54:40.259 +08:00 [INF] HTTP GET /api/cityb/health responded 200 in 3.5773 ms
+2026-06-24 19:54:40.269 +08:00 [INF] Proxying to http://127.0.0.1:5003/health HTTP/2 RequestVersionOrLower 
+2026-06-24 19:54:40.270 +08:00 [INF] Received HTTP/1.1 response 200.
+2026-06-24 19:54:40.270 +08:00 [INF] HTTP GET /api/cityc/health responded 200 in 1.0008 ms
+2026-06-24 19:54:44.008 +08:00 [INF] Probing destination `ServiceCityA_1` on cluster `ServiceCityA` completed with the response code `200`.
+2026-06-24 19:54:47.790 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:54:49.950 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 19:54:51.924 +08:00 [INF] Proxying to http://127.0.0.1:5001/health HTTP/2 RequestVersionOrLower 
+2026-06-24 19:54:51.925 +08:00 [INF] Received HTTP/1.1 response 200.
+2026-06-24 19:54:51.927 +08:00 [INF] HTTP GET /api/citya/health responded 200 in 2.2577 ms
+2026-06-24 19:54:54.018 +08:00 [INF] Probing destination `ServiceCityA_1` on cluster `ServiceCityA` completed with the response code `200`.
+2026-06-24 19:54:57.807 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:54:59.966 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 19:55:04.027 +08:00 [INF] Probing destination `ServiceCityA_1` on cluster `ServiceCityA` completed with the response code `200`.
+2026-06-24 19:55:07.079 +08:00 [INF] Proxying to http://127.0.0.1:5002/health HTTP/2 RequestVersionOrLower 
+2026-06-24 19:55:07.080 +08:00 [INF] Received HTTP/1.1 response 200.
+2026-06-24 19:55:07.081 +08:00 [INF] HTTP GET /api/cityb/health responded 200 in 2.1424 ms
+2026-06-24 19:55:07.093 +08:00 [INF] Proxying to http://127.0.0.1:5003/health HTTP/2 RequestVersionOrLower 
+2026-06-24 19:55:07.094 +08:00 [INF] Received HTTP/1.1 response 200.
+2026-06-24 19:55:07.094 +08:00 [INF] HTTP GET /api/cityc/health responded 200 in 1.0109 ms
+2026-06-24 19:55:07.811 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:55:09.979 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 19:55:14.038 +08:00 [INF] Probing destination `ServiceCityA_1` on cluster `ServiceCityA` completed with the response code `200`.
+2026-06-24 19:55:17.822 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:55:19.981 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 19:55:24.045 +08:00 [INF] Probing destination `ServiceCityA_1` on cluster `ServiceCityA` completed with the response code `200`.
+2026-06-24 19:55:27.823 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:55:29.994 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 19:55:34.061 +08:00 [INF] Probing destination `ServiceCityA_1` on cluster `ServiceCityA` completed with the response code `200`.
+2026-06-24 19:55:37.831 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:55:39.998 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 19:55:44.097 +08:00 [INF] Probing destination `ServiceCityA_1` on cluster `ServiceCityA` completed with the response code `200`.
+2026-06-24 19:55:47.834 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:55:50.000 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 19:55:54.112 +08:00 [INF] Probing destination `ServiceCityA_1` on cluster `ServiceCityA` completed with the response code `200`.
+2026-06-24 19:55:57.841 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:56:00.013 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 19:56:04.128 +08:00 [INF] Probing destination `ServiceCityA_1` on cluster `ServiceCityA` completed with the response code `200`.
+2026-06-24 19:56:07.852 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:56:10.019 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 19:56:12.959 +08:00 [INF] Proxying to http://127.0.0.1:5001/api/settlement/submit HTTP/2 RequestVersionOrLower 
+2026-06-24 19:56:13.021 +08:00 [INF] Received HTTP/1.1 response 200.
+2026-06-24 19:56:13.024 +08:00 [INF] HTTP GET /api/citya/api/settlement/submit responded 200 in 65.7796 ms
+2026-06-24 19:56:13.058 +08:00 [INF] HTTP GET /favicon.ico responded 404 in 0.0801 ms
+2026-06-24 19:56:14.142 +08:00 [INF] Probing destination `ServiceCityA_1` on cluster `ServiceCityA` completed with the response code `200`.
+2026-06-24 19:56:17.858 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:56:20.022 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 19:56:24.154 +08:00 [INF] Probing destination `ServiceCityA_1` on cluster `ServiceCityA` completed with the response code `200`.
+2026-06-24 19:56:27.180 +08:00 [INF] Proxying to http://127.0.0.1:5002/api/settlement/submit HTTP/2 RequestVersionOrLower 
+2026-06-24 19:56:27.234 +08:00 [INF] Received HTTP/1.1 response 200.
+2026-06-24 19:56:27.237 +08:00 [INF] HTTP GET /api/cityb/api/settlement/submit responded 200 in 56.8521 ms
+2026-06-24 19:56:27.866 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:56:30.026 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 19:56:34.157 +08:00 [INF] Probing destination `ServiceCityA_1` on cluster `ServiceCityA` completed with the response code `200`.
+2026-06-24 19:56:37.875 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:56:40.033 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 19:56:44.138 +08:00 [INF] Proxying to http://127.0.0.1:5003/api/settlement/submit HTTP/2 RequestVersionOrLower 
+2026-06-24 19:56:44.162 +08:00 [INF] Probing destination `ServiceCityA_1` on cluster `ServiceCityA` completed with the response code `200`.
+2026-06-24 19:56:44.163 +08:00 [INF] Received HTTP/1.1 response 200.
+2026-06-24 19:56:44.164 +08:00 [INF] HTTP GET /api/cityc/api/settlement/submit responded 200 in 26.6241 ms
+2026-06-24 19:56:47.885 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:56:50.047 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 19:56:54.175 +08:00 [INF] Probing destination `ServiceCityA_1` on cluster `ServiceCityA` completed with the response code `200`.
+2026-06-24 19:56:57.899 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:57:00.061 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 19:57:04.188 +08:00 [INF] Probing destination `ServiceCityA_1` on cluster `ServiceCityA` completed with the response code `200`.
+2026-06-24 19:57:07.910 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:57:10.082 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 19:57:14.206 +08:00 [INF] Probing destination `ServiceCityA_1` on cluster `ServiceCityA` completed with the response code `200`.
+2026-06-24 19:57:17.921 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 19:57:20.094 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:01:31.848 +08:00 [INF] 开始从Nacos初始化YARP服务配置...
+2026-06-24 20:01:31.849 +08:00 [INF] start up udp server....., port: 55517
+2026-06-24 20:01:31.975 +08:00 [INF] Gateway.Yarp 网关启动完成，监听端口 5000
+2026-06-24 20:01:31.998 +08:00 [INF] init new ips(0) service: DEFAULT_GROUP@@ServiceCityA@@DEFAULT -> []
+2026-06-24 20:01:32.005 +08:00 [INF] current ips:(0) service: DEFAULT_GROUP@@ServiceCityA@@DEFAULT -> []
+2026-06-24 20:01:32.009 +08:00 [INF] 从Nacos加载服务 ServiceCityA，实例数量: 0
+2026-06-24 20:01:32.020 +08:00 [INF] init new ips(1) service: DEFAULT_GROUP@@ServiceCityB@@DEFAULT -> [{"instanceId":"127.0.0.1#5002#DEFAULT#DEFAULT_GROUP@@ServiceCityB","ip":"127.0.0.1","port":5002,"weight":100,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@ServiceCityB","metadata":{"HOST_OS":"Microsoft Windows NT 10.0.19045.0","preserved.register.source":"ASPNET_CORE","DOTNET_VERSION":"8.0.28"}}]
+2026-06-24 20:01:32.022 +08:00 [INF] current ips:(1) service: DEFAULT_GROUP@@ServiceCityB@@DEFAULT -> [{"instanceId":"127.0.0.1#5002#DEFAULT#DEFAULT_GROUP@@ServiceCityB","ip":"127.0.0.1","port":5002,"weight":100,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@ServiceCityB","metadata":{"HOST_OS":"Microsoft Windows NT 10.0.19045.0","preserved.register.source":"ASPNET_CORE","DOTNET_VERSION":"8.0.28"}}]
+2026-06-24 20:01:32.024 +08:00 [INF] 从Nacos加载服务 ServiceCityB，实例数量: 1
+2026-06-24 20:01:32.026 +08:00 [INF] init new ips(1) service: DEFAULT_GROUP@@ServiceCityC@@DEFAULT -> [{"instanceId":"127.0.0.1#5003#DEFAULT#DEFAULT_GROUP@@ServiceCityC","ip":"127.0.0.1","port":5003,"weight":100,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@ServiceCityC","metadata":{"HOST_OS":"Microsoft Windows NT 10.0.19045.0","preserved.register.source":"ASPNET_CORE","DOTNET_VERSION":"8.0.28"}}]
+2026-06-24 20:01:32.027 +08:00 [INF] current ips:(1) service: DEFAULT_GROUP@@ServiceCityC@@DEFAULT -> [{"instanceId":"127.0.0.1#5003#DEFAULT#DEFAULT_GROUP@@ServiceCityC","ip":"127.0.0.1","port":5003,"weight":100,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@ServiceCityC","metadata":{"HOST_OS":"Microsoft Windows NT 10.0.19045.0","preserved.register.source":"ASPNET_CORE","DOTNET_VERSION":"8.0.28"}}]
+2026-06-24 20:01:32.028 +08:00 [INF] 从Nacos加载服务 ServiceCityC，实例数量: 1
+2026-06-24 20:01:32.030 +08:00 [INF] YARP配置已更新: 3 条路由, 3 个集群
+2026-06-24 20:01:32.534 +08:00 [INF] received push data: {"type":"dom","data":"{\"name\":\"DEFAULT_GROUP@@ServiceCityA\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1782302492526,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":41747438909400} from 192.168.31.35:58275
+2026-06-24 20:01:32.549 +08:00 [INF] received push data: {"type":"dom","data":"{\"name\":\"DEFAULT_GROUP@@ServiceCityC\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"127.0.0.1#5003#DEFAULT#DEFAULT_GROUP@@ServiceCityC\",\"ip\":\"127.0.0.1\",\"port\":5003,\"weight\":100.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"DEFAULT_GROUP@@ServiceCityC\",\"metadata\":{\"HOST_OS\":\"Microsoft Windows NT 10.0.19045.0\",\"preserved.register.source\":\"ASPNET_CORE\",\"DOTNET_VERSION\":\"8.0.28\"},\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000,\"ipDeleteTimeout\":30000}],\"lastRefTime\":1782302492526,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":41747439057200} from 192.168.31.35:58275
+2026-06-24 20:01:32.565 +08:00 [INF] received push data: {"type":"dom","data":"{\"name\":\"DEFAULT_GROUP@@ServiceCityB\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"127.0.0.1#5002#DEFAULT#DEFAULT_GROUP@@ServiceCityB\",\"ip\":\"127.0.0.1\",\"port\":5002,\"weight\":100.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"DEFAULT_GROUP@@ServiceCityB\",\"metadata\":{\"HOST_OS\":\"Microsoft Windows NT 10.0.19045.0\",\"preserved.register.source\":\"ASPNET_CORE\",\"DOTNET_VERSION\":\"8.0.28\"},\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000,\"ipDeleteTimeout\":30000}],\"lastRefTime\":1782302492526,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":41747438991400} from 192.168.31.35:58275
+2026-06-24 20:01:42.108 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:01:42.108 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:01:42.124 +08:00 [INF] Active health state of destination `ServiceCityC_1` on cluster `ServiceCityC` is set to '"Healthy"'.
+2026-06-24 20:01:42.124 +08:00 [INF] Active health state of destination `ServiceCityB_1` on cluster `ServiceCityB` is set to '"Healthy"'.
+2026-06-24 20:01:52.143 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:01:52.143 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:02:00.204 +08:00 [INF] Proxying to http://127.0.0.1:5002/health HTTP/2 RequestVersionOrLower 
+2026-06-24 20:02:00.212 +08:00 [INF] Received HTTP/1.1 response 200.
+2026-06-24 20:02:00.222 +08:00 [INF] HTTP GET /api/cityb/health responded 200 in 33.2280 ms
+2026-06-24 20:02:02.156 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:02:02.157 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:02:09.703 +08:00 [INF] Proxying to http://127.0.0.1:5003/health HTTP/2 RequestVersionOrLower 
+2026-06-24 20:02:09.706 +08:00 [INF] Received HTTP/1.1 response 200.
+2026-06-24 20:02:09.707 +08:00 [INF] HTTP GET /api/cityc/health responded 200 in 4.1233 ms
+2026-06-24 20:02:09.721 +08:00 [WRN] No available destinations after load balancing for cluster 'ServiceCityA'.
+2026-06-24 20:02:09.722 +08:00 [WRN] No available destinations after load balancing for cluster 'ServiceCityA'.
+2026-06-24 20:02:09.723 +08:00 [ERR] HTTP GET /api/citya/health responded 503 in 3.6647 ms
+2026-06-24 20:02:12.171 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:02:12.184 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:02:17.932 +08:00 [INF] Proxying to http://127.0.0.1:5002/health HTTP/2 RequestVersionOrLower 
+2026-06-24 20:02:17.935 +08:00 [INF] Received HTTP/1.1 response 200.
+2026-06-24 20:02:17.940 +08:00 [INF] HTTP GET /api/cityb/health responded 200 in 8.5426 ms
+2026-06-24 20:02:22.196 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:02:22.212 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:02:32.214 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:02:32.221 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:02:42.234 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:02:42.234 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:02:45.459 +08:00 [INF] Proxying to http://127.0.0.1:5002/health HTTP/2 RequestVersionOrLower 
+2026-06-24 20:02:45.466 +08:00 [INF] Received HTTP/1.1 response 200.
+2026-06-24 20:02:45.468 +08:00 [INF] HTTP GET /api/cityb/health responded 200 in 8.4365 ms
+2026-06-24 20:02:52.246 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:02:52.247 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:02:52.948 +08:00 [WRN] No available destinations after load balancing for cluster 'ServiceCityA'.
+2026-06-24 20:02:52.949 +08:00 [WRN] No available destinations after load balancing for cluster 'ServiceCityA'.
+2026-06-24 20:02:52.949 +08:00 [ERR] HTTP GET /api/citya/health responded 503 in 1.3476 ms
+2026-06-24 20:02:58.410 +08:00 [INF] Proxying to http://127.0.0.1:5003/health HTTP/2 RequestVersionOrLower 
+2026-06-24 20:02:58.411 +08:00 [INF] Received HTTP/1.1 response 200.
+2026-06-24 20:02:58.414 +08:00 [INF] HTTP GET /api/cityc/health responded 200 in 4.5918 ms
+2026-06-24 20:03:02.269 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:03:02.269 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:03:12.285 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:03:12.285 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:03:22.294 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:03:22.302 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:03:32.313 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:03:32.314 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:03:42.333 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:03:42.333 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:03:52.351 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:03:52.353 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:04:02.373 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:04:02.373 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:04:12.392 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:04:12.392 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:04:22.407 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:04:22.408 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:04:32.429 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:04:32.430 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:04:42.444 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:04:42.444 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:04:52.459 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:04:52.468 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:05:02.472 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:05:02.474 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:05:12.488 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:05:12.489 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:05:22.500 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:05:22.515 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:05:32.516 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:05:32.518 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:05:42.519 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:05:42.519 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:05:52.523 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:05:52.539 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:06:02.540 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:06:02.548 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:06:12.557 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:06:12.557 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:06:22.562 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:06:22.562 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:06:32.566 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:06:32.566 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:06:42.579 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:06:42.579 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:06:52.586 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:06:52.587 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:07:02.602 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:07:02.602 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:07:12.610 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:07:12.613 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:07:22.615 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:07:22.619 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:07:32.633 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:07:32.633 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:07:42.650 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:07:42.650 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:07:52.664 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:07:52.664 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:08:02.685 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:08:02.685 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:08:12.699 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:08:12.699 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:08:22.719 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:08:22.719 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:08:32.732 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:08:32.732 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:08:42.750 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:08:42.750 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:08:52.766 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:08:52.766 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:09:02.774 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:09:02.774 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:09:12.794 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:09:12.794 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:09:22.813 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:09:22.813 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:09:32.833 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:09:32.834 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:09:42.849 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:09:42.851 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:09:52.862 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:09:52.863 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:10:02.877 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:10:02.878 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:10:12.895 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:10:12.904 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:10:22.913 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:10:22.913 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:10:32.921 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:10:32.921 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:10:42.931 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:10:42.931 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:10:52.936 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:10:52.941 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:11:02.945 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:11:02.953 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:11:12.967 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:11:12.967 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:11:22.975 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:11:22.991 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:11:32.981 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:11:32.996 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:11:38.520 +08:00 [INF] Proxying to http://127.0.0.1:5003/health HTTP/2 RequestVersionOrLower 
+2026-06-24 20:11:38.521 +08:00 [INF] Received HTTP/1.1 response 200.
+2026-06-24 20:11:38.522 +08:00 [INF] HTTP GET /api/cityc/health responded 200 in 2.6801 ms
+2026-06-24 20:11:42.991 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:11:43.006 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:11:52.996 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:11:53.012 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:12:03.008 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:12:03.023 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:12:13.017 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:12:13.033 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:12:23.025 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:12:23.040 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:12:33.031 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:12:33.046 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:12:43.047 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:12:43.049 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:12:53.050 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:12:53.051 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:13:03.064 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:13:03.064 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:13:13.070 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:13:13.075 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:13:23.080 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:13:23.080 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:13:33.099 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:13:33.099 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:13:43.113 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:13:43.113 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:13:53.120 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:13:53.120 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:14:03.142 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:14:03.142 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:14:13.158 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:14:13.158 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:14:23.172 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:14:23.172 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:14:33.178 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:14:33.178 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:14:43.194 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:14:43.194 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:14:53.197 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:14:53.197 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:15:03.210 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:15:03.210 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:15:13.222 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:15:13.222 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:15:23.227 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:15:23.227 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:15:33.233 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:15:33.233 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:15:43.249 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:15:43.249 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:15:51.410 +08:00 [INF] HTTP GET /api/cityca/health responded 404 in 0.1033 ms
+2026-06-24 20:15:53.266 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:15:53.267 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:16:03.283 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:16:03.284 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:16:13.292 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:16:13.292 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:16:16.304 +08:00 [INF] HTTP GET /api/citycb/health responded 404 in 0.0173 ms
+2026-06-24 20:16:19.251 +08:00 [INF] HTTP GET /api/citycb/health responded 404 in 0.0182 ms
+2026-06-24 20:16:23.307 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:16:23.307 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:16:24.304 +08:00 [INF] HTTP GET /api/citycb/health responded 404 in 0.0186 ms
+2026-06-24 20:16:32.092 +08:00 [INF] HTTP GET /api/citycb/health responded 404 in 0.0149 ms
+2026-06-24 20:16:33.320 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:16:33.320 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:16:43.322 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:16:43.325 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:16:53.335 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:16:53.336 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:17:03.352 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:17:03.352 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:17:13.359 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:17:13.359 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:17:23.369 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:17:23.369 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:17:33.383 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:17:33.383 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:17:43.393 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:17:43.393 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:17:53.406 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:17:53.406 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:18:03.418 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:18:03.418 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:18:13.433 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:18:13.449 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:18:23.452 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:18:23.453 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:18:33.466 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:18:33.481 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:18:43.479 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:18:43.484 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:18:53.492 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:18:53.492 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:19:03.506 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:19:03.506 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:19:13.521 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:19:13.521 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:19:23.529 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:19:23.529 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:19:33.538 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:19:33.543 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:19:43.546 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:19:43.547 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:19:53.561 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:19:53.562 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:20:03.574 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:20:03.574 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:20:13.592 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:20:13.593 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:20:23.600 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:20:23.600 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:20:33.612 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:20:33.612 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:20:43.616 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:20:43.632 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:20:53.631 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:20:53.635 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:21:03.650 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:21:03.650 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:21:13.657 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:21:13.672 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:21:23.673 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:21:23.688 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:21:33.682 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:21:33.697 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:21:43.693 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:21:43.709 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:21:53.705 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:21:53.714 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:22:03.725 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:22:03.730 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:22:13.730 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:22:13.745 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:22:23.744 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:22:23.760 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:22:33.755 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:22:33.770 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:22:43.761 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:22:43.776 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:22:53.769 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:22:53.783 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:23:03.779 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:23:03.795 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:23:13.792 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:23:13.800 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:23:23.807 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:23:23.807 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:23:33.813 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:23:33.815 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:23:43.820 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:23:43.820 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:23:53.835 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:23:53.835 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:24:03.843 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:24:03.844 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:24:13.857 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:24:13.857 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:24:23.867 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:24:23.867 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:24:33.871 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:24:33.871 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:24:43.884 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:24:43.884 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:24:53.890 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:24:53.890 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:25:03.897 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:25:03.913 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:25:13.906 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:25:13.922 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:25:23.918 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:25:23.934 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:25:33.921 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:25:33.936 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:25:43.926 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:25:43.943 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:25:53.944 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:25:53.948 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:26:03.957 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:26:03.957 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:26:13.968 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:26:13.968 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:26:23.971 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:26:23.975 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:26:33.990 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:26:33.990 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:26:39.398 +08:00 [ERR] [NA] failed to request
+System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.CallServer(String api, Dictionary`2 paramters, Dictionary`2 body, String curServer, HttpMethod method)
+2026-06-24 20:26:43.498 +08:00 [ERR] [NA] failed to request
+System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.CallServer(String api, Dictionary`2 paramters, Dictionary`2 body, String curServer, HttpMethod method)
+2026-06-24 20:26:44.012 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:26:44.012 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:26:47.578 +08:00 [ERR] [NA] failed to request
+System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.CallServer(String api, Dictionary`2 paramters, Dictionary`2 body, String curServer, HttpMethod method)
+2026-06-24 20:26:51.687 +08:00 [ERR] [NA] failed to request
+System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.CallServer(String api, Dictionary`2 paramters, Dictionary`2 body, String curServer, HttpMethod method)
+2026-06-24 20:26:51.711 +08:00 [ERR] request: /nacos/v1/ns/instance/list failed, servers: ["http://localhost:8848"], code: 500, msg: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+2026-06-24 20:26:51.719 +08:00 [WRN] [NA] failed to update serviceName: DEFAULT_GROUP@@ServiceCityA
+Nacos.V2.Exceptions.NacosException: failed to req API: /nacos/v1/ns/instance/list after all servers(System.Collections.Generic.List`1[System.String]) tried: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.ReqApi(String url, Dictionary`2 paramters, Dictionary`2 body, List`1 servers, HttpMethod method)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.ReqApi(String url, Dictionary`2 paramters, Dictionary`2 body, HttpMethod method)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.ReqApi(String url, Dictionary`2 paramters, HttpMethod method)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.QueryInstancesOfService(String serviceName, String groupName, String clusters, Int32 udpPort, Boolean healthyOnly)
+   at Nacos.V2.Naming.Remote.NamingClientProxyDelegate.QueryInstancesOfService(String serviceName, String groupName, String clusters, Int32 udpPort, Boolean healthyOnly)
+   at Nacos.V2.Naming.Core.ServiceInfoUpdateService.<>c__DisplayClass9_0.<<UpdateTask>b__0>d.MoveNext()
+2026-06-24 20:26:54.020 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:26:54.035 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:27:04.025 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:27:04.040 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:27:14.042 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.
+2026-06-24 20:27:14.046 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:27:24.059 +08:00 [INF] Probing destination `ServiceCityC_1` on cluster `ServiceCityC` completed with the response code `200`.
+2026-06-24 20:27:24.059 +08:00 [INF] Probing destination `ServiceCityB_1` on cluster `ServiceCityB` completed with the response code `200`.

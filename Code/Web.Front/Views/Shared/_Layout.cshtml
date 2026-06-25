@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - 医保结算系统</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="/" class="navbar-brand">医保结算系统</a>
+                <div class="navbar-nav">
+                    <a href="/" class="nav-link">首页</a>
+                    <a href="/settlement" class="nav-link">结算提交</a>
+                    <a href="/settlement/query" class="nav-link">结算查询</a>
+                    <a href="/monitor" class="nav-link">服务监控</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+    <footer>
+        <div class="container">
+            <p>© 2024 医保结算微服务系统</p>
+        </div>
+    </footer>
+</body>
+</html>

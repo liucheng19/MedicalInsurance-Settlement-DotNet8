@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "d:\\work\\MedicalInsurance-Settlement-DotNet8.git\\Code\\Web.Front\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Web.Front.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Web.Front.props",
+      "PackagePath": "build\\Web.Front.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Web.Front.props",
+      "PackagePath": "buildMultiTargeting\\Web.Front.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Web.Front.props",
+      "PackagePath": "buildTransitive\\Web.Front.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

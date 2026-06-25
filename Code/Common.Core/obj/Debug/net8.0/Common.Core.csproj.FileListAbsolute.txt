@@ -1,0 +1,15 @@
+D:\work\MedicalInsurance-Settlement-DotNet8.git\Code\Common.Core\bin\Debug\net8.0\Common.Core.deps.json
+D:\work\MedicalInsurance-Settlement-DotNet8.git\Code\Common.Core\bin\Debug\net8.0\Common.Core.runtimeconfig.json
+D:\work\MedicalInsurance-Settlement-DotNet8.git\Code\Common.Core\bin\Debug\net8.0\Common.Core.dll
+D:\work\MedicalInsurance-Settlement-DotNet8.git\Code\Common.Core\bin\Debug\net8.0\Common.Core.pdb
+D:\work\MedicalInsurance-Settlement-DotNet8.git\Code\Common.Core\obj\Debug\net8.0\Common.Core.csproj.AssemblyReference.cache
+D:\work\MedicalInsurance-Settlement-DotNet8.git\Code\Common.Core\obj\Debug\net8.0\Common.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\MedicalInsurance-Settlement-DotNet8.git\Code\Common.Core\obj\Debug\net8.0\Common.Core.AssemblyInfoInputs.cache
+D:\work\MedicalInsurance-Settlement-DotNet8.git\Code\Common.Core\obj\Debug\net8.0\Common.Core.AssemblyInfo.cs
+D:\work\MedicalInsurance-Settlement-DotNet8.git\Code\Common.Core\obj\Debug\net8.0\Common.Core.csproj.CoreCompileInputs.cache
+D:\work\MedicalInsurance-Settlement-DotNet8.git\Code\Common.Core\obj\Debug\net8.0\Common.Core.sourcelink.json
+D:\work\MedicalInsurance-Settlement-DotNet8.git\Code\Common.Core\obj\Debug\net8.0\Common.Core.dll
+D:\work\MedicalInsurance-Settlement-DotNet8.git\Code\Common.Core\obj\Debug\net8.0\refint\Common.Core.dll
+D:\work\MedicalInsurance-Settlement-DotNet8.git\Code\Common.Core\obj\Debug\net8.0\Common.Core.pdb
+D:\work\MedicalInsurance-Settlement-DotNet8.git\Code\Common.Core\obj\Debug\net8.0\Common.Core.genruntimeconfig.cache
+D:\work\MedicalInsurance-Settlement-DotNet8.git\Code\Common.Core\obj\Debug\net8.0\ref\Common.Core.dll

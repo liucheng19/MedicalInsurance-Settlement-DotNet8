@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "K83FqJKwZd+9u8EC1oVgVu6L9EmvPUBDGcwd88IFWgc=",
+  "Source": "Gateway.Yarp",
+  "BasePath": "_content/Gateway.Yarp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

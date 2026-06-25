@@ -1,0 +1,738 @@
+2026-06-24 19:36:33.400 +08:00 [INF] start up udp server....., port: 55924
+2026-06-24 19:36:33.494 +08:00 [INF] register instance to nacos server, 【Instance{instanceId='', ip='127.0.0.1', port=5003, weight=100, healthy=True, enabled=True, ephemeral=True, clusterName='DEFAULT', serviceName='ServiceCityC', metadata={"preserved.register.source":"ASPNET_CORE","DOTNET_VERSION":"8.0.28","HOST_OS":"Microsoft Windows NT 10.0.19045.0"}}】
+2026-06-24 19:36:33.497 +08:00 [INF] [REGISTER-SERVICE] dev registering service ServiceCityC with instance: Instance{instanceId='', ip='127.0.0.1', port=5003, weight=100, healthy=True, enabled=True, ephemeral=True, clusterName='DEFAULT', serviceName='ServiceCityC', metadata={"preserved.register.source":"ASPNET_CORE","DOTNET_VERSION":"8.0.28","HOST_OS":"Microsoft Windows NT 10.0.19045.0"}}
+2026-06-24 19:36:33.499 +08:00 [INF] [BEAT] adding beat: BeatInfo{port=5003, ip='127.0.0.1', weight=100, serviceName='DEFAULT_GROUP@@ServiceCityC', cluster='DEFAULT', metadata={"preserved.register.source":"ASPNET_CORE","DOTNET_VERSION":"8.0.28","HOST_OS":"Microsoft Windows NT 10.0.19045.0"}, scheduled=False, period=5000, stopped=False} to beat map.
+2026-06-24 19:36:33.513 +08:00 [INF] 心跳后台服务已启动
+2026-06-24 19:36:34.337 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:36:44.397 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:36:54.456 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:37:04.467 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:37:14.502 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:37:24.521 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:37:34.543 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:37:40.081 +08:00 [INF] HTTP GET /health responded 200 in 14.1342 ms
+2026-06-24 19:37:44.564 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:37:54.590 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:38:04.621 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:38:14.645 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:38:24.663 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:38:34.668 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:38:44.674 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:38:54.682 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:39:04.710 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:39:14.747 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:39:24.775 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:39:34.805 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:39:44.824 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:39:54.852 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:40:04.868 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:40:14.903 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:40:24.920 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:40:34.939 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:40:44.983 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:40:55.025 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:40:58.403 +08:00 [INF] HTTP GET /health responded 200 in 0.5797 ms
+2026-06-24 19:41:05.050 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:41:15.063 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:41:25.081 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:41:35.122 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:41:45.136 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:41:55.163 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:42:05.186 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:42:15.216 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:42:25.241 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:42:35.301 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:42:45.326 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:42:55.351 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:43:05.367 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:43:15.381 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:43:25.415 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:43:35.434 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:43:45.452 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:43:55.479 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:44:05.495 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:44:15.519 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:44:25.530 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:44:35.537 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:44:45.556 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:44:55.585 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:45:05.613 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:45:15.627 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:45:25.649 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:45:35.661 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:45:45.673 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:45:55.682 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:46:05.704 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:46:15.728 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:46:25.743 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:46:35.768 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:46:45.783 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:46:55.798 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:47:05.815 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:47:15.838 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:47:25.861 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:47:35.878 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:47:45.898 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:47:55.931 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:48:05.962 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:48:15.980 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:48:25.994 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:48:36.006 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:48:46.025 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:48:56.043 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:49:06.050 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:49:16.061 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:49:26.072 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:49:36.088 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:49:46.109 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:49:53.975 +08:00 [INF] HTTP GET /health responded 200 in 0.1230 ms
+2026-06-24 19:49:56.127 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:50:04.010 +08:00 [INF] HTTP GET /health responded 200 in 0.0697 ms
+2026-06-24 19:50:06.138 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:50:14.024 +08:00 [INF] HTTP GET /health responded 200 in 0.2197 ms
+2026-06-24 19:50:16.154 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:50:24.115 +08:00 [INF] HTTP GET /health responded 200 in 0.1130 ms
+2026-06-24 19:50:26.204 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:50:34.285 +08:00 [INF] HTTP GET /health responded 200 in 0.1025 ms
+2026-06-24 19:50:36.226 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:50:44.294 +08:00 [INF] HTTP GET /health responded 200 in 0.0823 ms
+2026-06-24 19:50:46.245 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:50:50.503 +08:00 [INF] HTTP POST /api/settlement/submit responded 400 in 121.6753 ms
+2026-06-24 19:50:54.304 +08:00 [INF] HTTP GET /health responded 200 in 0.1040 ms
+2026-06-24 19:50:56.256 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:51:04.401 +08:00 [INF] HTTP GET /health responded 200 in 0.0827 ms
+2026-06-24 19:51:06.267 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:51:08.507 +08:00 [INF] HTTP GET /health responded 200 in 0.0808 ms
+2026-06-24 19:51:14.422 +08:00 [INF] HTTP GET /health responded 200 in 0.1218 ms
+2026-06-24 19:51:16.291 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:51:24.437 +08:00 [INF] HTTP GET /health responded 200 in 0.0798 ms
+2026-06-24 19:51:26.301 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:51:36.326 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:51:46.348 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:51:56.356 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:52:06.375 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:52:07.594 +08:00 [INF] HTTP GET /health responded 200 in 0.1555 ms
+2026-06-24 19:52:13.817 +08:00 [INF] HTTP GET /health responded 200 in 0.0876 ms
+2026-06-24 19:52:16.393 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:52:17.621 +08:00 [INF] HTTP GET /health responded 200 in 0.1304 ms
+2026-06-24 19:52:26.413 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:52:27.635 +08:00 [INF] HTTP GET /health responded 200 in 0.0783 ms
+2026-06-24 19:52:36.426 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:52:37.649 +08:00 [INF] HTTP GET /health responded 200 in 0.1270 ms
+2026-06-24 19:52:46.440 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:52:47.668 +08:00 [INF] HTTP GET /health responded 200 in 0.2292 ms
+2026-06-24 19:52:56.462 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:52:57.680 +08:00 [INF] HTTP GET /health responded 200 in 0.1379 ms
+2026-06-24 19:53:06.480 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:53:07.689 +08:00 [INF] HTTP GET /health responded 200 in 0.0701 ms
+2026-06-24 19:53:16.495 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:53:17.696 +08:00 [INF] HTTP GET /health responded 200 in 0.0736 ms
+2026-06-24 19:53:22.397 +08:00 [INF] HTTP GET /health responded 200 in 0.0504 ms
+2026-06-24 19:53:26.513 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:53:27.705 +08:00 [INF] HTTP GET /health responded 200 in 0.2090 ms
+2026-06-24 19:53:36.532 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:53:37.721 +08:00 [INF] HTTP GET /health responded 200 in 0.2048 ms
+2026-06-24 19:53:46.543 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:53:47.730 +08:00 [INF] HTTP GET /health responded 200 in 0.2107 ms
+2026-06-24 19:53:56.566 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:53:57.748 +08:00 [INF] HTTP GET /health responded 200 in 0.1001 ms
+2026-06-24 19:54:06.584 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:54:07.759 +08:00 [INF] HTTP GET /health responded 200 in 0.1126 ms
+2026-06-24 19:54:16.614 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:54:17.768 +08:00 [INF] HTTP GET /health responded 200 in 0.1921 ms
+2026-06-24 19:54:26.631 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:54:27.773 +08:00 [INF] HTTP GET /health responded 200 in 0.0887 ms
+2026-06-24 19:54:36.653 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:54:37.779 +08:00 [INF] HTTP GET /health responded 200 in 0.1543 ms
+2026-06-24 19:54:40.270 +08:00 [INF] HTTP GET /health responded 200 in 0.0471 ms
+2026-06-24 19:54:46.678 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:54:47.789 +08:00 [INF] HTTP GET /health responded 200 in 0.1085 ms
+2026-06-24 19:54:56.696 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:54:57.806 +08:00 [INF] HTTP GET /health responded 200 in 0.0735 ms
+2026-06-24 19:55:06.723 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:55:07.094 +08:00 [INF] HTTP GET /health responded 200 in 0.0354 ms
+2026-06-24 19:55:07.811 +08:00 [INF] HTTP GET /health responded 200 in 0.0301 ms
+2026-06-24 19:55:16.735 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:55:17.821 +08:00 [INF] HTTP GET /health responded 200 in 0.1358 ms
+2026-06-24 19:55:26.753 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:55:27.822 +08:00 [INF] HTTP GET /health responded 200 in 0.0531 ms
+2026-06-24 19:55:36.759 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:55:37.831 +08:00 [INF] HTTP GET /health responded 200 in 0.0507 ms
+2026-06-24 19:55:46.772 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:55:47.834 +08:00 [INF] HTTP GET /health responded 200 in 0.0429 ms
+2026-06-24 19:55:56.797 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:55:57.841 +08:00 [INF] HTTP GET /health responded 200 in 0.0681 ms
+2026-06-24 19:56:06.816 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:56:07.852 +08:00 [INF] HTTP GET /health responded 200 in 0.0599 ms
+2026-06-24 19:56:16.827 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:56:17.858 +08:00 [INF] HTTP GET /health responded 200 in 0.0634 ms
+2026-06-24 19:56:26.842 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:56:27.865 +08:00 [INF] HTTP GET /health responded 200 in 0.0562 ms
+2026-06-24 19:56:36.859 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:56:37.875 +08:00 [INF] HTTP GET /health responded 200 in 0.0633 ms
+2026-06-24 19:56:44.164 +08:00 [INF] HTTP GET /api/settlement/submit responded 200 in 24.7047 ms
+2026-06-24 19:56:46.877 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:56:47.885 +08:00 [INF] HTTP GET /health responded 200 in 0.1432 ms
+2026-06-24 19:56:56.893 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:56:57.898 +08:00 [INF] HTTP GET /health responded 200 in 0.1074 ms
+2026-06-24 19:57:06.949 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:57:07.910 +08:00 [INF] HTTP GET /health responded 200 in 0.0310 ms
+2026-06-24 19:57:16.963 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:57:17.920 +08:00 [INF] HTTP GET /health responded 200 in 0.0624 ms
+2026-06-24 19:57:26.985 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:57:37.001 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:57:47.023 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:57:57.037 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:58:07.060 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:58:17.079 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:58:27.097 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:58:37.112 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:58:47.132 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:58:57.147 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:59:07.160 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:59:17.170 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:59:27.194 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:59:37.216 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:59:47.226 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 19:59:57.235 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:00:07.252 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:00:17.282 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:00:21.694 +08:00 [INF] HTTP GET /health responded 200 in 0.0439 ms
+2026-06-24 20:00:27.307 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:00:37.339 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:00:47.365 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:00:57.385 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:01:07.408 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:01:17.429 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:01:27.449 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:01:37.474 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:01:42.090 +08:00 [INF] HTTP GET /health responded 200 in 0.1280 ms
+2026-06-24 20:01:47.491 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:01:52.143 +08:00 [INF] HTTP GET /health responded 200 in 0.0938 ms
+2026-06-24 20:01:57.511 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:02:02.156 +08:00 [INF] HTTP GET /health responded 200 in 0.1420 ms
+2026-06-24 20:02:07.524 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:02:09.705 +08:00 [INF] HTTP GET /health responded 200 in 0.0444 ms
+2026-06-24 20:02:12.170 +08:00 [INF] HTTP GET /health responded 200 in 0.1309 ms
+2026-06-24 20:02:17.534 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:02:22.196 +08:00 [INF] HTTP GET /health responded 200 in 0.0453 ms
+2026-06-24 20:02:27.546 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:02:32.214 +08:00 [INF] HTTP GET /health responded 200 in 0.0941 ms
+2026-06-24 20:02:37.562 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:02:42.234 +08:00 [INF] HTTP GET /health responded 200 in 0.0566 ms
+2026-06-24 20:02:47.588 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:02:52.247 +08:00 [INF] HTTP GET /health responded 200 in 0.2196 ms
+2026-06-24 20:02:57.604 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:02:58.411 +08:00 [INF] HTTP GET /health responded 200 in 0.0431 ms
+2026-06-24 20:03:02.269 +08:00 [INF] HTTP GET /health responded 200 in 0.3183 ms
+2026-06-24 20:03:07.629 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:03:12.283 +08:00 [INF] HTTP GET /health responded 200 in 0.1032 ms
+2026-06-24 20:03:17.637 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:03:22.302 +08:00 [INF] HTTP GET /health responded 200 in 0.0706 ms
+2026-06-24 20:03:27.646 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:03:32.313 +08:00 [INF] HTTP GET /health responded 200 in 0.0919 ms
+2026-06-24 20:03:37.663 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:03:42.333 +08:00 [INF] HTTP GET /health responded 200 in 0.0288 ms
+2026-06-24 20:03:47.685 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:03:52.351 +08:00 [INF] HTTP GET /health responded 200 in 0.0247 ms
+2026-06-24 20:03:57.708 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:04:02.372 +08:00 [INF] HTTP GET /health responded 200 in 0.0677 ms
+2026-06-24 20:04:07.724 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:04:12.392 +08:00 [INF] HTTP GET /health responded 200 in 0.0574 ms
+2026-06-24 20:04:17.736 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:04:22.406 +08:00 [INF] HTTP GET /health responded 200 in 0.0526 ms
+2026-06-24 20:04:27.758 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:04:32.428 +08:00 [INF] HTTP GET /health responded 200 in 0.0388 ms
+2026-06-24 20:04:37.778 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:04:38.866 +08:00 [INF] HTTP GET /health responded 200 in 0.0203 ms
+2026-06-24 20:04:38.879 +08:00 [INF] HTTP GET /api/heartbeat/status responded 200 in 12.1503 ms
+2026-06-24 20:04:42.443 +08:00 [INF] HTTP GET /health responded 200 in 0.0746 ms
+2026-06-24 20:04:47.800 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:04:52.467 +08:00 [INF] HTTP GET /health responded 200 in 0.1357 ms
+2026-06-24 20:04:57.828 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:05:02.474 +08:00 [INF] HTTP GET /health responded 200 in 0.0278 ms
+2026-06-24 20:05:07.857 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:05:12.488 +08:00 [INF] HTTP GET /health responded 200 in 0.0791 ms
+2026-06-24 20:05:17.875 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:05:22.515 +08:00 [INF] HTTP GET /health responded 200 in 0.0331 ms
+2026-06-24 20:05:27.904 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:05:32.518 +08:00 [INF] HTTP GET /health responded 200 in 0.0229 ms
+2026-06-24 20:05:37.923 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:05:42.519 +08:00 [INF] HTTP GET /health responded 200 in 0.0434 ms
+2026-06-24 20:05:47.941 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:05:52.523 +08:00 [INF] HTTP GET /health responded 200 in 0.0157 ms
+2026-06-24 20:05:57.960 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:06:02.540 +08:00 [INF] HTTP GET /health responded 200 in 0.0562 ms
+2026-06-24 20:06:07.984 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:06:12.556 +08:00 [INF] HTTP GET /health responded 200 in 0.0411 ms
+2026-06-24 20:06:17.992 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:06:22.562 +08:00 [INF] HTTP GET /health responded 200 in 0.0374 ms
+2026-06-24 20:06:28.006 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:06:32.566 +08:00 [INF] HTTP GET /health responded 200 in 0.0255 ms
+2026-06-24 20:06:38.016 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:06:42.579 +08:00 [INF] HTTP GET /health responded 200 in 0.0268 ms
+2026-06-24 20:06:46.184 +08:00 [INF] HTTP GET /health responded 200 in 0.0232 ms
+2026-06-24 20:06:46.187 +08:00 [INF] HTTP GET /api/heartbeat/status responded 200 in 2.0000 ms
+2026-06-24 20:06:48.030 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:06:52.585 +08:00 [INF] HTTP GET /health responded 200 in 0.0816 ms
+2026-06-24 20:06:58.058 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:07:02.601 +08:00 [INF] HTTP GET /health responded 200 in 0.0626 ms
+2026-06-24 20:07:08.082 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:07:12.613 +08:00 [INF] HTTP GET /health responded 200 in 0.0339 ms
+2026-06-24 20:07:18.101 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:07:22.619 +08:00 [INF] HTTP GET /health responded 200 in 0.0309 ms
+2026-06-24 20:07:28.125 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:07:32.633 +08:00 [INF] HTTP GET /health responded 200 in 0.0408 ms
+2026-06-24 20:07:38.143 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:07:42.649 +08:00 [INF] HTTP GET /health responded 200 in 0.0563 ms
+2026-06-24 20:07:48.191 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:07:52.291 +08:00 [INF] HTTP GET /health responded 200 in 0.0249 ms
+2026-06-24 20:07:52.303 +08:00 [INF] HTTP GET /api/heartbeat/status responded 200 in 1.3995 ms
+2026-06-24 20:07:52.663 +08:00 [INF] HTTP GET /health responded 200 in 0.0808 ms
+2026-06-24 20:07:58.227 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:08:02.685 +08:00 [INF] HTTP GET /health responded 200 in 0.0252 ms
+2026-06-24 20:08:08.239 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:08:12.699 +08:00 [INF] HTTP GET /health responded 200 in 0.0640 ms
+2026-06-24 20:08:18.256 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:08:22.719 +08:00 [INF] HTTP GET /health responded 200 in 0.0321 ms
+2026-06-24 20:08:28.281 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:08:32.732 +08:00 [INF] HTTP GET /health responded 200 in 0.0554 ms
+2026-06-24 20:08:38.295 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:08:42.749 +08:00 [INF] HTTP GET /health responded 200 in 0.0685 ms
+2026-06-24 20:08:48.313 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:08:52.766 +08:00 [INF] HTTP GET /health responded 200 in 0.0814 ms
+2026-06-24 20:08:58.336 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:08:59.759 +08:00 [INF] HTTP GET /health responded 200 in 0.0295 ms
+2026-06-24 20:08:59.770 +08:00 [INF] HTTP GET /api/heartbeat/status responded 200 in 1.5402 ms
+2026-06-24 20:09:02.774 +08:00 [INF] HTTP GET /health responded 200 in 0.0773 ms
+2026-06-24 20:09:08.348 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:09:12.793 +08:00 [INF] HTTP GET /health responded 200 in 0.0841 ms
+2026-06-24 20:09:18.364 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:09:22.813 +08:00 [INF] HTTP GET /health responded 200 in 0.0789 ms
+2026-06-24 20:09:28.379 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:09:32.833 +08:00 [INF] HTTP GET /health responded 200 in 0.1602 ms
+2026-06-24 20:09:38.399 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:09:42.851 +08:00 [INF] HTTP GET /health responded 200 in 0.0245 ms
+2026-06-24 20:09:48.416 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:09:52.861 +08:00 [INF] HTTP GET /health responded 200 in 0.0799 ms
+2026-06-24 20:09:58.432 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:10:02.877 +08:00 [INF] HTTP GET /health responded 200 in 0.1002 ms
+2026-06-24 20:10:08.454 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:10:12.903 +08:00 [INF] HTTP GET /health responded 200 in 0.0617 ms
+2026-06-24 20:10:18.476 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:10:22.913 +08:00 [INF] HTTP GET /health responded 200 in 0.0215 ms
+2026-06-24 20:10:23.267 +08:00 [INF] HTTP GET /health responded 200 in 0.0185 ms
+2026-06-24 20:10:23.279 +08:00 [INF] HTTP GET /api/heartbeat/status responded 200 in 1.5927 ms
+2026-06-24 20:10:28.486 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:10:31.875 +08:00 [INF] HTTP GET /health responded 200 in 0.0222 ms
+2026-06-24 20:10:31.878 +08:00 [INF] HTTP GET /api/heartbeat/status responded 200 in 1.7649 ms
+2026-06-24 20:10:32.921 +08:00 [INF] HTTP GET /health responded 200 in 0.0432 ms
+2026-06-24 20:10:38.501 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:10:42.931 +08:00 [INF] HTTP GET /health responded 200 in 0.0478 ms
+2026-06-24 20:10:48.514 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:10:52.936 +08:00 [INF] HTTP GET /health responded 200 in 0.0906 ms
+2026-06-24 20:10:58.518 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:11:02.945 +08:00 [INF] HTTP GET /health responded 200 in 0.0678 ms
+2026-06-24 20:11:08.529 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:11:12.966 +08:00 [INF] HTTP GET /health responded 200 in 0.0898 ms
+2026-06-24 20:11:18.544 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:11:22.991 +08:00 [INF] HTTP GET /health responded 200 in 0.0238 ms
+2026-06-24 20:11:28.563 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:11:32.996 +08:00 [INF] HTTP GET /health responded 200 in 0.0705 ms
+2026-06-24 20:11:38.521 +08:00 [INF] HTTP GET /health responded 200 in 0.0249 ms
+2026-06-24 20:11:38.577 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:11:43.006 +08:00 [INF] HTTP GET /health responded 200 in 0.0266 ms
+2026-06-24 20:11:48.596 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:11:49.833 +08:00 [INF] HTTP GET /health responded 200 in 0.0488 ms
+2026-06-24 20:11:49.841 +08:00 [INF] HTTP GET /api/heartbeat/status responded 200 in 5.9811 ms
+2026-06-24 20:11:53.011 +08:00 [INF] HTTP GET /health responded 200 in 0.0353 ms
+2026-06-24 20:11:56.724 +08:00 [INF] HTTP GET /health responded 200 in 0.0250 ms
+2026-06-24 20:11:56.727 +08:00 [INF] HTTP GET /api/heartbeat/status responded 200 in 2.4404 ms
+2026-06-24 20:11:58.609 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:12:03.023 +08:00 [INF] HTTP GET /health responded 200 in 0.0310 ms
+2026-06-24 20:12:08.627 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:12:13.033 +08:00 [INF] HTTP GET /health responded 200 in 0.0426 ms
+2026-06-24 20:12:18.638 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:12:23.040 +08:00 [INF] HTTP GET /health responded 200 in 0.0301 ms
+2026-06-24 20:12:28.644 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:12:33.046 +08:00 [INF] HTTP GET /health responded 200 in 0.0313 ms
+2026-06-24 20:12:38.668 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:12:43.049 +08:00 [INF] HTTP GET /health responded 200 in 0.0179 ms
+2026-06-24 20:12:48.684 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:12:53.051 +08:00 [INF] HTTP GET /health responded 200 in 0.0169 ms
+2026-06-24 20:12:58.693 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:13:03.063 +08:00 [INF] HTTP GET /health responded 200 in 0.0413 ms
+2026-06-24 20:13:08.709 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:13:13.070 +08:00 [INF] HTTP GET /health responded 200 in 0.0351 ms
+2026-06-24 20:13:14.320 +08:00 [INF] HTTP GET /health responded 200 in 0.0294 ms
+2026-06-24 20:13:14.323 +08:00 [INF] HTTP GET /api/heartbeat/status responded 200 in 1.8921 ms
+2026-06-24 20:13:14.888 +08:00 [INF] HTTP GET /health responded 200 in 0.0264 ms
+2026-06-24 20:13:14.891 +08:00 [INF] HTTP GET /api/heartbeat/status responded 200 in 1.7101 ms
+2026-06-24 20:13:18.727 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:13:23.080 +08:00 [INF] HTTP GET /health responded 200 in 0.0383 ms
+2026-06-24 20:13:28.738 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:13:33.098 +08:00 [INF] HTTP GET /health responded 200 in 0.0532 ms
+2026-06-24 20:13:38.750 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:13:43.113 +08:00 [INF] HTTP GET /health responded 200 in 0.0446 ms
+2026-06-24 20:13:48.765 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:13:53.119 +08:00 [INF] HTTP GET /health responded 200 in 0.0704 ms
+2026-06-24 20:13:58.775 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:14:03.142 +08:00 [INF] HTTP GET /health responded 200 in 0.0290 ms
+2026-06-24 20:14:08.789 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:14:13.158 +08:00 [INF] HTTP GET /health responded 200 in 0.0269 ms
+2026-06-24 20:14:18.803 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:14:23.172 +08:00 [INF] HTTP GET /health responded 200 in 0.0440 ms
+2026-06-24 20:14:28.821 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:14:33.178 +08:00 [INF] HTTP GET /health responded 200 in 0.0387 ms
+2026-06-24 20:14:38.851 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:14:43.194 +08:00 [INF] HTTP GET /health responded 200 in 0.0194 ms
+2026-06-24 20:14:48.870 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:14:53.196 +08:00 [INF] HTTP GET /health responded 200 in 0.0218 ms
+2026-06-24 20:14:58.884 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:15:03.210 +08:00 [INF] HTTP GET /health responded 200 in 0.0355 ms
+2026-06-24 20:15:08.901 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:15:13.222 +08:00 [INF] HTTP GET /health responded 200 in 0.0264 ms
+2026-06-24 20:15:18.913 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:15:23.227 +08:00 [INF] HTTP GET /health responded 200 in 0.0300 ms
+2026-06-24 20:15:28.925 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:15:33.233 +08:00 [INF] HTTP GET /health responded 200 in 0.0451 ms
+2026-06-24 20:15:38.936 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:15:43.248 +08:00 [INF] HTTP GET /health responded 200 in 0.0403 ms
+2026-06-24 20:15:48.958 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:15:53.266 +08:00 [INF] HTTP GET /health responded 200 in 0.0489 ms
+2026-06-24 20:15:58.985 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:16:03.283 +08:00 [INF] HTTP GET /health responded 200 in 0.0313 ms
+2026-06-24 20:16:09.008 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:16:13.292 +08:00 [INF] HTTP GET /health responded 200 in 0.0669 ms
+2026-06-24 20:16:19.015 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:16:23.307 +08:00 [INF] HTTP GET /health responded 200 in 0.0181 ms
+2026-06-24 20:16:29.022 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:16:33.320 +08:00 [INF] HTTP GET /health responded 200 in 0.0283 ms
+2026-06-24 20:16:39.053 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:16:43.322 +08:00 [INF] HTTP GET /health responded 200 in 0.0222 ms
+2026-06-24 20:16:49.073 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:16:53.335 +08:00 [INF] HTTP GET /health responded 200 in 0.0689 ms
+2026-06-24 20:16:58.584 +08:00 [INF] HTTP GET /health responded 200 in 0.0193 ms
+2026-06-24 20:16:58.586 +08:00 [INF] HTTP GET /api/heartbeat/status responded 200 in 1.3922 ms
+2026-06-24 20:16:59.086 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:17:03.352 +08:00 [INF] HTTP GET /health responded 200 in 0.0332 ms
+2026-06-24 20:17:09.099 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:17:13.359 +08:00 [INF] HTTP GET /health responded 200 in 0.0213 ms
+2026-06-24 20:17:19.122 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:17:23.368 +08:00 [INF] HTTP GET /health responded 200 in 0.0609 ms
+2026-06-24 20:17:29.138 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:17:33.383 +08:00 [INF] HTTP GET /health responded 200 in 0.0300 ms
+2026-06-24 20:17:39.159 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:17:43.392 +08:00 [INF] HTTP GET /health responded 200 in 0.0842 ms
+2026-06-24 20:17:49.177 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:17:53.406 +08:00 [INF] HTTP GET /health responded 200 in 0.0241 ms
+2026-06-24 20:17:59.194 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:18:03.418 +08:00 [INF] HTTP GET /health responded 200 in 0.0905 ms
+2026-06-24 20:18:09.223 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:18:13.448 +08:00 [INF] HTTP GET /health responded 200 in 0.0378 ms
+2026-06-24 20:18:19.237 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:18:23.452 +08:00 [INF] HTTP GET /health responded 200 in 0.0797 ms
+2026-06-24 20:18:29.261 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:18:33.480 +08:00 [INF] HTTP GET /health responded 200 in 0.0264 ms
+2026-06-24 20:18:39.271 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:18:43.484 +08:00 [INF] HTTP GET /health responded 200 in 0.0399 ms
+2026-06-24 20:18:49.285 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:18:53.491 +08:00 [INF] HTTP GET /health responded 200 in 0.0299 ms
+2026-06-24 20:18:59.298 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:19:03.505 +08:00 [INF] HTTP GET /health responded 200 in 0.1331 ms
+2026-06-24 20:19:09.327 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:19:13.521 +08:00 [INF] HTTP GET /health responded 200 in 0.0753 ms
+2026-06-24 20:19:19.346 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:19:23.528 +08:00 [INF] HTTP GET /health responded 200 in 0.0836 ms
+2026-06-24 20:19:29.367 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:19:33.543 +08:00 [INF] HTTP GET /health responded 200 in 0.0507 ms
+2026-06-24 20:19:34.013 +08:00 [INF] HTTP GET /health responded 200 in 0.0296 ms
+2026-06-24 20:19:34.018 +08:00 [INF] HTTP GET /api/heartbeat/status responded 200 in 2.7383 ms
+2026-06-24 20:19:39.397 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:19:43.547 +08:00 [INF] HTTP GET /health responded 200 in 0.0219 ms
+2026-06-24 20:19:49.413 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:19:53.561 +08:00 [INF] HTTP GET /health responded 200 in 0.0459 ms
+2026-06-24 20:19:59.440 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:20:03.573 +08:00 [INF] HTTP GET /health responded 200 in 0.0870 ms
+2026-06-24 20:20:09.450 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:20:13.591 +08:00 [INF] HTTP GET /health responded 200 in 0.0365 ms
+2026-06-24 20:20:19.469 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:20:23.599 +08:00 [INF] HTTP GET /health responded 200 in 0.0483 ms
+2026-06-24 20:20:29.492 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:20:33.612 +08:00 [INF] HTTP GET /health responded 200 in 0.0333 ms
+2026-06-24 20:20:39.507 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:20:43.632 +08:00 [INF] HTTP GET /health responded 200 in 0.0155 ms
+2026-06-24 20:20:49.521 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:20:53.634 +08:00 [INF] HTTP GET /health responded 200 in 0.0349 ms
+2026-06-24 20:20:59.540 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:21:03.650 +08:00 [INF] HTTP GET /health responded 200 in 0.0564 ms
+2026-06-24 20:21:09.553 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:21:13.671 +08:00 [INF] HTTP GET /health responded 200 in 0.0645 ms
+2026-06-24 20:21:19.566 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:21:23.688 +08:00 [INF] HTTP GET /health responded 200 in 0.0224 ms
+2026-06-24 20:21:29.576 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:21:33.697 +08:00 [INF] HTTP GET /health responded 200 in 0.0206 ms
+2026-06-24 20:21:39.598 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:21:43.708 +08:00 [INF] HTTP GET /health responded 200 in 0.0215 ms
+2026-06-24 20:21:49.618 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:21:53.714 +08:00 [INF] HTTP GET /health responded 200 in 0.1232 ms
+2026-06-24 20:21:59.634 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:22:03.729 +08:00 [INF] HTTP GET /health responded 200 in 0.0470 ms
+2026-06-24 20:22:09.661 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:22:13.745 +08:00 [INF] HTTP GET /health responded 200 in 0.0283 ms
+2026-06-24 20:22:19.678 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:22:23.760 +08:00 [INF] HTTP GET /health responded 200 in 0.0215 ms
+2026-06-24 20:22:29.690 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:22:33.770 +08:00 [INF] HTTP GET /health responded 200 in 0.0199 ms
+2026-06-24 20:22:39.697 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:22:43.776 +08:00 [INF] HTTP GET /health responded 200 in 0.0221 ms
+2026-06-24 20:22:49.720 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:22:53.783 +08:00 [INF] HTTP GET /health responded 200 in 0.0289 ms
+2026-06-24 20:22:59.732 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:23:03.795 +08:00 [INF] HTTP GET /health responded 200 in 0.0187 ms
+2026-06-24 20:23:09.752 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:23:13.799 +08:00 [INF] HTTP GET /health responded 200 in 0.0646 ms
+2026-06-24 20:23:19.765 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:23:23.806 +08:00 [INF] HTTP GET /health responded 200 in 0.0476 ms
+2026-06-24 20:23:29.787 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:23:33.815 +08:00 [INF] HTTP GET /health responded 200 in 0.0189 ms
+2026-06-24 20:23:39.810 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:23:43.820 +08:00 [INF] HTTP GET /health responded 200 in 0.0381 ms
+2026-06-24 20:23:49.833 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:23:53.834 +08:00 [INF] HTTP GET /health responded 200 in 0.0521 ms
+2026-06-24 20:23:59.853 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:24:03.843 +08:00 [INF] HTTP GET /health responded 200 in 0.0523 ms
+2026-06-24 20:24:09.872 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:24:13.856 +08:00 [INF] HTTP GET /health responded 200 in 0.1546 ms
+2026-06-24 20:24:19.894 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:24:23.867 +08:00 [INF] HTTP GET /health responded 200 in 0.0215 ms
+2026-06-24 20:24:29.911 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:24:33.871 +08:00 [INF] HTTP GET /health responded 200 in 0.0286 ms
+2026-06-24 20:24:39.937 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:24:43.884 +08:00 [INF] HTTP GET /health responded 200 in 0.0180 ms
+2026-06-24 20:24:49.950 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:24:53.889 +08:00 [INF] HTTP GET /health responded 200 in 0.1139 ms
+2026-06-24 20:24:59.969 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:25:03.897 +08:00 [INF] HTTP GET /health responded 200 in 0.0323 ms
+2026-06-24 20:25:09.980 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:25:13.906 +08:00 [INF] HTTP GET /health responded 200 in 0.0297 ms
+2026-06-24 20:25:20.009 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:25:23.918 +08:00 [INF] HTTP GET /health responded 200 in 0.0246 ms
+2026-06-24 20:25:30.016 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:25:33.920 +08:00 [INF] HTTP GET /health responded 200 in 0.0283 ms
+2026-06-24 20:25:40.050 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:25:43.926 +08:00 [INF] HTTP GET /health responded 200 in 0.0676 ms
+2026-06-24 20:25:50.073 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:25:53.944 +08:00 [INF] HTTP GET /health responded 200 in 0.0322 ms
+2026-06-24 20:26:00.101 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:26:03.957 +08:00 [INF] HTTP GET /health responded 200 in 0.0236 ms
+2026-06-24 20:26:10.129 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:26:13.968 +08:00 [INF] HTTP GET /health responded 200 in 0.0206 ms
+2026-06-24 20:26:20.134 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:26:23.974 +08:00 [INF] HTTP GET /health responded 200 in 0.0418 ms
+2026-06-24 20:26:30.149 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:26:33.989 +08:00 [INF] HTTP GET /health responded 200 in 0.1118 ms
+2026-06-24 20:26:39.241 +08:00 [ERR] [NA] failed to request
+System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.CallServer(String api, Dictionary`2 paramters, Dictionary`2 body, String curServer, HttpMethod method)
+2026-06-24 20:26:40.164 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:26:43.329 +08:00 [ERR] [NA] failed to request
+System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.CallServer(String api, Dictionary`2 paramters, Dictionary`2 body, String curServer, HttpMethod method)
+2026-06-24 20:26:44.012 +08:00 [INF] HTTP GET /health responded 200 in 0.0573 ms
+2026-06-24 20:26:47.410 +08:00 [ERR] [NA] failed to request
+System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.CallServer(String api, Dictionary`2 paramters, Dictionary`2 body, String curServer, HttpMethod method)
+2026-06-24 20:26:50.191 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:26:51.518 +08:00 [ERR] [NA] failed to request
+System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.CallServer(String api, Dictionary`2 paramters, Dictionary`2 body, String curServer, HttpMethod method)
+2026-06-24 20:26:51.534 +08:00 [ERR] request: /nacos/v1/ns/instance/beat failed, servers: ["http://localhost:8848"], code: 500, msg: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+2026-06-24 20:26:51.539 +08:00 [ERR] [CLIENT-BEAT] failed to send beat: BeatInfo{port=5003, ip='127.0.0.1', weight=100, serviceName='DEFAULT_GROUP@@ServiceCityC', cluster='DEFAULT', metadata={"preserved.register.source":"ASPNET_CORE","DOTNET_VERSION":"8.0.28","HOST_OS":"Microsoft Windows NT 10.0.19045.0"}, scheduled=False, period=5000, stopped=False}, code: 500, msg: failed to req API: /nacos/v1/ns/instance/beat after all servers(System.Collections.Generic.List`1[System.String]) tried: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+Nacos.V2.Exceptions.NacosException: failed to req API: /nacos/v1/ns/instance/beat after all servers(System.Collections.Generic.List`1[System.String]) tried: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.ReqApi(String url, Dictionary`2 paramters, Dictionary`2 body, List`1 servers, HttpMethod method)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.ReqApi(String url, Dictionary`2 paramters, Dictionary`2 body, HttpMethod method)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.SendBeat(BeatInfo beatInfo, Boolean lightBeatEnabled)
+   at Nacos.V2.Naming.Beat.BeatReactor.BeatTask(BeatInfo beatInfo)
+2026-06-24 20:26:54.035 +08:00 [INF] HTTP GET /health responded 200 in 0.0227 ms
+2026-06-24 20:27:00.222 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:27:00.642 +08:00 [ERR] [NA] failed to request
+System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.CallServer(String api, Dictionary`2 paramters, Dictionary`2 body, String curServer, HttpMethod method)
+2026-06-24 20:27:04.040 +08:00 [INF] HTTP GET /health responded 200 in 0.0676 ms
+2026-06-24 20:27:04.755 +08:00 [ERR] [NA] failed to request
+System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.CallServer(String api, Dictionary`2 paramters, Dictionary`2 body, String curServer, HttpMethod method)
+2026-06-24 20:27:08.876 +08:00 [ERR] [NA] failed to request
+System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.CallServer(String api, Dictionary`2 paramters, Dictionary`2 body, String curServer, HttpMethod method)
+2026-06-24 20:27:10.246 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:27:12.971 +08:00 [ERR] [NA] failed to request
+System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.CallServer(String api, Dictionary`2 paramters, Dictionary`2 body, String curServer, HttpMethod method)
+2026-06-24 20:27:12.981 +08:00 [ERR] request: /nacos/v1/ns/instance/beat failed, servers: ["http://localhost:8848"], code: 500, msg: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+2026-06-24 20:27:12.982 +08:00 [ERR] [CLIENT-BEAT] failed to send beat: BeatInfo{port=5003, ip='127.0.0.1', weight=100, serviceName='DEFAULT_GROUP@@ServiceCityC', cluster='DEFAULT', metadata={"preserved.register.source":"ASPNET_CORE","DOTNET_VERSION":"8.0.28","HOST_OS":"Microsoft Windows NT 10.0.19045.0"}, scheduled=False, period=5000, stopped=False}, code: 500, msg: failed to req API: /nacos/v1/ns/instance/beat after all servers(System.Collections.Generic.List`1[System.String]) tried: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+Nacos.V2.Exceptions.NacosException: failed to req API: /nacos/v1/ns/instance/beat after all servers(System.Collections.Generic.List`1[System.String]) tried: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.ReqApi(String url, Dictionary`2 paramters, Dictionary`2 body, List`1 servers, HttpMethod method)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.ReqApi(String url, Dictionary`2 paramters, Dictionary`2 body, HttpMethod method)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.SendBeat(BeatInfo beatInfo, Boolean lightBeatEnabled)
+   at Nacos.V2.Naming.Beat.BeatReactor.BeatTask(BeatInfo beatInfo)
+2026-06-24 20:27:14.045 +08:00 [INF] HTTP GET /health responded 200 in 0.0441 ms
+2026-06-24 20:27:20.264 +08:00 [INF] ServiceCityC 心跳发送成功
+2026-06-24 20:27:22.104 +08:00 [ERR] [NA] failed to request
+System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (localhost:8848)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Nacos.V2.Naming.Remote.Http.NamingHttpClientProxy.CallServer(String api, Dictionary`2 paramters, Dictionary`2 body, String curServer, HttpMethod method)
+2026-06-24 20:27:24.058 +08:00 [INF] HTTP GET /health responded 200 in 0.0460 ms

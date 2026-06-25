@@ -1,0 +1,45 @@
+@{
+    ViewData["Title"] = "结算结果";
+}
+
+<div class="container">
+    <h2>结算结果</h2>
+    @if (ViewBag.ErrorMessage != null)
+    {
+        <div class="alert alert-danger">
+            @ViewBag.ErrorMessage
+        </div>
+    }
+    else if (ViewBag.Result != null)
+    {
+        var result = ViewBag.Result as Common.Core.Models.Result<Common.Core.Models.SettlementResponse>;
+        if (result.Success)
+        {
+            <div class="alert alert-success">
+                结算成功！
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h4>结算详情</h4>
+                    <table class="table">
+                        <tr><td>地市</td><td>@ViewBag.City</td></tr>
+                        <tr><td>结算单号</td><td>@result.Data.RecordNo</td></tr>
+                        <tr><td>患者ID</td><td>@result.Data.PatientId</td></tr>
+                        <tr><td>患者姓名</td><td>@result.Data.PatientName</td></tr>
+                        <tr><td>总金额</td><td>@result.Data.TotalAmount.ToString("F2")</td></tr>
+                        <tr><td>医保金额</td><td>@result.Data.MedicalAmount.ToString("F2")</td></tr>
+                        <tr><td>自付金额</td><td>@result.Data.SelfPayAmount.ToString("F2")</td></tr>
+                        <tr><td>结算时间</td><td>@result.Data.SettlementTime</td></tr>
+                    </table>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="alert alert-danger">
+                结算失败：@result.Message
+            </div>
+        }
+    }
+    <a href="/settlement" class="btn btn-secondary">返回提交</a>
+</div>

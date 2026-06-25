@@ -1,0 +1,43 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Web.Front
+build_property.RootNamespace = Web.Front
+build_property.ProjectDir = d:\work\MedicalInsurance-Settlement-DotNet8.git\Code\Web.Front\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = d:\work\MedicalInsurance-Settlement-DotNet8.git\Code\Web.Front
+build_property._RazorSourceGeneratorDebug = 
+
+[d:/work/MedicalInsurance-Settlement-DotNet8.git/Code/Web.Front/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/work/MedicalInsurance-Settlement-DotNet8.git/Code/Web.Front/Views/Monitor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uaXRvclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/work/MedicalInsurance-Settlement-DotNet8.git/Code/Web.Front/Views/Settlement/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V0dGxlbWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/work/MedicalInsurance-Settlement-DotNet8.git/Code/Web.Front/Views/Settlement/Query.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V0dGxlbWVudFxRdWVyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/work/MedicalInsurance-Settlement-DotNet8.git/Code/Web.Front/Views/Settlement/Result.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V0dGxlbWVudFxSZXN1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/work/MedicalInsurance-Settlement-DotNet8.git/Code/Web.Front/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

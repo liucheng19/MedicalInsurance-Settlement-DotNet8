@@ -1,0 +1,51 @@
+@{
+    ViewData["Title"] = "结算提交";
+}
+
+<div class="container">
+    <h2>医保结算提交</h2>
+    <form asp-action="Submit" method="post" class="form">
+        <div class="form-group">
+            <label>选择地市</label>
+            <select name="City" required class="form-control">
+                <option value="">请选择地市</option>
+                <option value="CITYA">A市</option>
+                <option value="CITYB">B市</option>
+                <option value="CITYC">C市</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>患者ID</label>
+            <input type="text" name="PatientId" required class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>患者姓名</label>
+            <input type="text" name="PatientName" required class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>患者卡号</label>
+            <input type="text" name="PatientCardNo" required class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>结算金额</label>
+            <input type="number" name="TotalAmount" step="0.01" min="0" required class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>诊断编码</label>
+            <input type="text" name="DiagnosisCode" required class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>诊断名称</label>
+            <input type="text" name="DiagnosisName" required class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>医院编码</label>
+            <input type="text" name="HospitalCode" required class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>医院名称</label>
+            <input type="text" name="HospitalName" required class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary">提交结算</button>
+    </form>
+</div>

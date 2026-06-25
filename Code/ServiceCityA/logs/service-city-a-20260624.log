@@ -1,0 +1,232 @@
+2026-06-24 19:19:00.766 +08:00 [INF] 心跳后台服务已启动
+2026-06-24 19:19:01.599 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:19:11.737 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:19:21.775 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:19:31.789 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:19:41.809 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:19:51.817 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:19:56.046 +08:00 [INF] HTTP GET /health responded 200 in 16.6949 ms
+2026-06-24 19:20:01.828 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:20:11.848 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:20:17.549 +08:00 [INF] HTTP POST /api/settlement/submit responded 400 in 92.3133 ms
+2026-06-24 19:20:21.865 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:20:31.888 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:20:34.070 +08:00 [INF] 开始处理{CITYA}结算请求，患者ID：P001
+2026-06-24 19:20:34.477 +08:00 [INF] {CITYA}第三方医保接口调用成功，记录号：CITYA202606241920340714336
+2026-06-24 19:20:34.551 +08:00 [INF] {CITYA}结算记录已保存，记录号：CITYA202606241920340714336
+2026-06-24 19:20:34.562 +08:00 [INF] HTTP POST /api/settlement/submit responded 200 in 499.3780 ms
+2026-06-24 19:20:41.915 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:20:51.932 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:21:01.949 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:21:11.967 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:21:21.988 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:21:31.994 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:21:42.007 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:21:52.030 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:22:02.063 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:22:12.096 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:22:22.112 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:22:32.133 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:22:42.154 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:22:52.166 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:23:02.187 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:23:12.202 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:23:22.219 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:23:32.225 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:23:42.255 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:23:52.273 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:24:02.280 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:24:12.297 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:24:22.310 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:24:32.328 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:24:42.342 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:24:52.375 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:25:02.406 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:25:12.426 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:25:22.445 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:25:32.464 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:25:42.494 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:25:52.524 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:26:02.542 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:26:12.574 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:26:22.590 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:26:32.612 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:26:42.635 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:26:52.663 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:27:02.693 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:27:12.724 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:27:22.744 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:27:32.752 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:27:42.783 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:28:13.134 +08:00 [INF] 心跳后台服务已启动
+2026-06-24 19:28:13.973 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:28:24.044 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:28:34.108 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:28:44.126 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:28:54.134 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:28:57.756 +08:00 [INF] 心跳后台服务已启动
+2026-06-24 19:28:58.665 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:29:08.718 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:29:18.781 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:29:28.804 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:29:38.827 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:29:48.832 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:29:58.872 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:30:02.035 +08:00 [INF] HTTP GET /health responded 200 in 14.0613 ms
+2026-06-24 19:30:08.893 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:30:18.911 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:30:28.935 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:30:38.948 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:30:48.982 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:30:59.010 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:31:09.034 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:31:19.055 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:31:29.078 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:31:39.101 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:31:49.140 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:31:59.159 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:32:09.172 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:32:19.188 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:32:29.211 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:32:59.626 +08:00 [INF] start up udp server....., port: 55125
+2026-06-24 19:32:59.722 +08:00 [INF] register instance to nacos server, 【Instance{instanceId='', ip='127.0.0.1', port=5001, weight=100, healthy=True, enabled=True, ephemeral=True, clusterName='DEFAULT', serviceName='ServiceCityA', metadata={"preserved.register.source":"ASPNET_CORE","DOTNET_VERSION":"8.0.28","HOST_OS":"Microsoft Windows NT 10.0.19045.0"}}】
+2026-06-24 19:32:59.724 +08:00 [INF] [REGISTER-SERVICE] dev registering service ServiceCityA with instance: Instance{instanceId='', ip='127.0.0.1', port=5001, weight=100, healthy=True, enabled=True, ephemeral=True, clusterName='DEFAULT', serviceName='ServiceCityA', metadata={"preserved.register.source":"ASPNET_CORE","DOTNET_VERSION":"8.0.28","HOST_OS":"Microsoft Windows NT 10.0.19045.0"}}
+2026-06-24 19:32:59.726 +08:00 [INF] [BEAT] adding beat: BeatInfo{port=5001, ip='127.0.0.1', weight=100, serviceName='DEFAULT_GROUP@@ServiceCityA', cluster='DEFAULT', metadata={"preserved.register.source":"ASPNET_CORE","DOTNET_VERSION":"8.0.28","HOST_OS":"Microsoft Windows NT 10.0.19045.0"}, scheduled=False, period=5000, stopped=False} to beat map.
+2026-06-24 19:32:59.763 +08:00 [INF] 心跳后台服务已启动
+2026-06-24 19:33:00.564 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:33:10.632 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:33:20.672 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:33:30.679 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:33:40.698 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:33:50.725 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:34:00.743 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:34:10.774 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:34:20.785 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:34:30.812 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:34:40.835 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:34:50.857 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:35:00.881 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:35:10.903 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:35:20.918 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:35:30.930 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:35:40.947 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:35:50.985 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:35:55.286 +08:00 [WRN] deregister instance from nacos server, serviceName=ServiceCityA
+2026-06-24 19:35:55.286 +08:00 [WRN] begin to remove instance
+2026-06-24 19:35:55.287 +08:00 [INF] [REGISTER-SERVICE] dev deregistering service ServiceCityA with instance: Instance{instanceId='', ip='127.0.0.1', port=5001, weight=1, healthy=True, enabled=True, ephemeral=True, clusterName='DEFAULT', serviceName='', metadata={}}
+2026-06-24 19:35:55.288 +08:00 [INF] [BEAT] removing beat: DEFAULT_GROUP@@ServiceCityA:127.0.0.1:5001 from beat map.
+2026-06-24 19:35:55.293 +08:00 [WRN] removed instance
+2026-06-24 19:39:31.928 +08:00 [INF] start up udp server....., port: 55916
+2026-06-24 19:39:32.185 +08:00 [INF] register instance to nacos server, 【Instance{instanceId='', ip='127.0.0.1', port=5001, weight=100, healthy=True, enabled=True, ephemeral=True, clusterName='DEFAULT', serviceName='ServiceCityA', metadata={"preserved.register.source":"ASPNET_CORE","DOTNET_VERSION":"8.0.28","HOST_OS":"Microsoft Windows NT 10.0.19045.0"}}】
+2026-06-24 19:39:32.189 +08:00 [INF] [REGISTER-SERVICE] dev registering service ServiceCityA with instance: Instance{instanceId='', ip='127.0.0.1', port=5001, weight=100, healthy=True, enabled=True, ephemeral=True, clusterName='DEFAULT', serviceName='ServiceCityA', metadata={"preserved.register.source":"ASPNET_CORE","DOTNET_VERSION":"8.0.28","HOST_OS":"Microsoft Windows NT 10.0.19045.0"}}
+2026-06-24 19:39:32.191 +08:00 [INF] [BEAT] adding beat: BeatInfo{port=5001, ip='127.0.0.1', weight=100, serviceName='DEFAULT_GROUP@@ServiceCityA', cluster='DEFAULT', metadata={"preserved.register.source":"ASPNET_CORE","DOTNET_VERSION":"8.0.28","HOST_OS":"Microsoft Windows NT 10.0.19045.0"}, scheduled=False, period=5000, stopped=False} to beat map.
+2026-06-24 19:39:32.216 +08:00 [INF] 心跳后台服务已启动
+2026-06-24 19:39:33.242 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:39:43.374 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:39:53.409 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:40:03.426 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:40:13.441 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:40:23.465 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:40:33.496 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:40:43.516 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:40:53.535 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:40:58.334 +08:00 [INF] HTTP GET /health responded 200 in 16.1110 ms
+2026-06-24 19:41:03.556 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:41:13.580 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:41:23.602 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:41:33.618 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:41:43.646 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:41:53.676 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:42:03.697 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:42:13.727 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:42:23.745 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:42:33.765 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:42:43.788 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:42:53.801 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:43:03.820 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:43:13.830 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:43:23.846 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:43:33.869 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:43:43.900 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:43:53.928 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:44:03.963 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:44:13.991 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:44:24.010 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:44:34.043 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:44:44.060 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:44:54.075 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:45:04.102 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:45:14.111 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:45:24.144 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:45:34.161 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:45:37.567 +08:00 [WRN] deregister instance from nacos server, serviceName=ServiceCityA
+2026-06-24 19:45:37.568 +08:00 [WRN] begin to remove instance
+2026-06-24 19:45:37.579 +08:00 [INF] [REGISTER-SERVICE] dev deregistering service ServiceCityA with instance: Instance{instanceId='', ip='127.0.0.1', port=5001, weight=1, healthy=True, enabled=True, ephemeral=True, clusterName='DEFAULT', serviceName='', metadata={}}
+2026-06-24 19:45:37.581 +08:00 [INF] [BEAT] removing beat: DEFAULT_GROUP@@ServiceCityA:127.0.0.1:5001 from beat map.
+2026-06-24 19:45:37.598 +08:00 [WRN] removed instance
+2026-06-24 19:52:35.356 +08:00 [INF] start up udp server....., port: 55498
+2026-06-24 19:52:35.469 +08:00 [INF] register instance to nacos server, 【Instance{instanceId='', ip='127.0.0.1', port=5001, weight=100, healthy=True, enabled=True, ephemeral=True, clusterName='DEFAULT', serviceName='ServiceCityA', metadata={"preserved.register.source":"ASPNET_CORE","DOTNET_VERSION":"8.0.28","HOST_OS":"Microsoft Windows NT 10.0.19045.0"}}】
+2026-06-24 19:52:35.472 +08:00 [INF] [REGISTER-SERVICE] dev registering service ServiceCityA with instance: Instance{instanceId='', ip='127.0.0.1', port=5001, weight=100, healthy=True, enabled=True, ephemeral=True, clusterName='DEFAULT', serviceName='ServiceCityA', metadata={"preserved.register.source":"ASPNET_CORE","DOTNET_VERSION":"8.0.28","HOST_OS":"Microsoft Windows NT 10.0.19045.0"}}
+2026-06-24 19:52:35.474 +08:00 [INF] [BEAT] adding beat: BeatInfo{port=5001, ip='127.0.0.1', weight=100, serviceName='DEFAULT_GROUP@@ServiceCityA', cluster='DEFAULT', metadata={"preserved.register.source":"ASPNET_CORE","DOTNET_VERSION":"8.0.28","HOST_OS":"Microsoft Windows NT 10.0.19045.0"}, scheduled=False, period=5000, stopped=False} to beat map.
+2026-06-24 19:52:35.488 +08:00 [INF] 心跳后台服务已启动
+2026-06-24 19:52:36.301 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:52:46.403 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:52:56.445 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:53:06.462 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:53:07.567 +08:00 [WRN] deregister instance from nacos server, serviceName=ServiceCityA
+2026-06-24 19:53:07.568 +08:00 [WRN] begin to remove instance
+2026-06-24 19:53:07.569 +08:00 [INF] [REGISTER-SERVICE] dev deregistering service ServiceCityA with instance: Instance{instanceId='', ip='127.0.0.1', port=5001, weight=1, healthy=True, enabled=True, ephemeral=True, clusterName='DEFAULT', serviceName='', metadata={}}
+2026-06-24 19:53:07.569 +08:00 [INF] [BEAT] removing beat: DEFAULT_GROUP@@ServiceCityA:127.0.0.1:5001 from beat map.
+2026-06-24 19:53:07.573 +08:00 [WRN] removed instance
+2026-06-24 19:53:44.477 +08:00 [INF] start up udp server....., port: 55545
+2026-06-24 19:53:44.588 +08:00 [INF] register instance to nacos server, 【Instance{instanceId='', ip='127.0.0.1', port=5001, weight=100, healthy=True, enabled=True, ephemeral=True, clusterName='DEFAULT', serviceName='ServiceCityA', metadata={"preserved.register.source":"ASPNET_CORE","DOTNET_VERSION":"8.0.28","HOST_OS":"Microsoft Windows NT 10.0.19045.0"}}】
+2026-06-24 19:53:44.592 +08:00 [INF] [REGISTER-SERVICE] dev registering service ServiceCityA with instance: Instance{instanceId='', ip='127.0.0.1', port=5001, weight=100, healthy=True, enabled=True, ephemeral=True, clusterName='DEFAULT', serviceName='ServiceCityA', metadata={"preserved.register.source":"ASPNET_CORE","DOTNET_VERSION":"8.0.28","HOST_OS":"Microsoft Windows NT 10.0.19045.0"}}
+2026-06-24 19:53:44.593 +08:00 [INF] [BEAT] adding beat: BeatInfo{port=5001, ip='127.0.0.1', weight=100, serviceName='DEFAULT_GROUP@@ServiceCityA', cluster='DEFAULT', metadata={"preserved.register.source":"ASPNET_CORE","DOTNET_VERSION":"8.0.28","HOST_OS":"Microsoft Windows NT 10.0.19045.0"}, scheduled=False, period=5000, stopped=False} to beat map.
+2026-06-24 19:53:44.608 +08:00 [INF] 心跳后台服务已启动
+2026-06-24 19:53:45.433 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:53:53.965 +08:00 [INF] HTTP GET /health responded 200 in 37.2704 ms
+2026-06-24 19:53:55.542 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:54:03.969 +08:00 [INF] HTTP GET /health responded 200 in 0.5751 ms
+2026-06-24 19:54:05.568 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:54:13.978 +08:00 [INF] HTTP GET /health responded 200 in 0.1597 ms
+2026-06-24 19:54:15.594 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:54:23.983 +08:00 [INF] HTTP GET /health responded 200 in 0.1553 ms
+2026-06-24 19:54:25.617 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:54:33.989 +08:00 [INF] HTTP GET /health responded 200 in 1.2313 ms
+2026-06-24 19:54:35.634 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:54:40.242 +08:00 [INF] HTTP GET /health responded 200 in 0.0647 ms
+2026-06-24 19:54:44.008 +08:00 [INF] HTTP GET /health responded 200 in 0.1284 ms
+2026-06-24 19:54:45.676 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:54:51.925 +08:00 [INF] HTTP GET /health responded 200 in 0.0624 ms
+2026-06-24 19:54:54.018 +08:00 [INF] HTTP GET /health responded 200 in 0.1309 ms
+2026-06-24 19:54:55.699 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:55:04.027 +08:00 [INF] HTTP GET /health responded 200 in 0.1366 ms
+2026-06-24 19:55:05.768 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:55:14.038 +08:00 [INF] HTTP GET /health responded 200 in 0.3321 ms
+2026-06-24 19:55:15.816 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:55:24.045 +08:00 [INF] HTTP GET /health responded 200 in 0.1702 ms
+2026-06-24 19:55:25.838 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:55:34.061 +08:00 [INF] HTTP GET /health responded 200 in 0.1515 ms
+2026-06-24 19:55:35.859 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:55:44.093 +08:00 [INF] HTTP GET /health responded 200 in 0.0957 ms
+2026-06-24 19:55:45.875 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:55:54.112 +08:00 [INF] HTTP GET /health responded 200 in 0.2025 ms
+2026-06-24 19:55:55.893 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:56:04.128 +08:00 [INF] HTTP GET /health responded 200 in 0.2029 ms
+2026-06-24 19:56:05.917 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:56:13.021 +08:00 [INF] HTTP GET /api/settlement/submit responded 200 in 60.3524 ms
+2026-06-24 19:56:14.142 +08:00 [INF] HTTP GET /health responded 200 in 0.1072 ms
+2026-06-24 19:56:15.930 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:56:24.154 +08:00 [INF] HTTP GET /health responded 200 in 0.1521 ms
+2026-06-24 19:56:25.940 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:56:34.157 +08:00 [INF] HTTP GET /health responded 200 in 0.1221 ms
+2026-06-24 19:56:35.966 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:56:44.162 +08:00 [INF] HTTP GET /health responded 200 in 0.1119 ms
+2026-06-24 19:56:45.987 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:56:54.175 +08:00 [INF] HTTP GET /health responded 200 in 0.0619 ms
+2026-06-24 19:56:56.010 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:57:04.187 +08:00 [INF] HTTP GET /health responded 200 in 0.1741 ms
+2026-06-24 19:57:06.037 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:57:14.205 +08:00 [INF] HTTP GET /health responded 200 in 0.2286 ms
+2026-06-24 19:57:16.050 +08:00 [INF] ServiceCityA 心跳发送成功
+2026-06-24 19:57:26.062 +08:00 [INF] ServiceCityA 心跳发送成功

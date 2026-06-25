@@ -1,0 +1,44 @@
+@{
+    ViewData["Title"] = "结算查询";
+}
+
+<div class="container">
+    <h2>结算查询</h2>
+    <form asp-action="Query" method="get" class="form">
+        <div class="form-group">
+            <label>结算单号</label>
+            <input type="text" name="recordNo" class="form-control" placeholder="请输入结算单号" />
+        </div>
+        <button type="submit" class="btn btn-primary">查询</button>
+    </form>
+    
+    @if (ViewBag.Result != null)
+    {
+        var result = ViewBag.Result as Common.Core.Models.Result<Common.Core.Entities.SettlementRecord>;
+        if (result.Success && result.Data != null)
+        {
+            <div class="card">
+                <div class="card-body">
+                    <h4>查询结果</h4>
+                    <table class="table">
+                        <tr><td>结算单号</td><td>@result.Data.RecordNo</td></tr>
+                        <tr><td>地市编码</td><td>@result.Data.CityCode</td></tr>
+                        <tr><td>患者ID</td><td>@result.Data.PatientId</td></tr>
+                        <tr><td>患者姓名</td><td>@result.Data.PatientName</td></tr>
+                        <tr><td>总金额</td><td>@result.Data.TotalAmount.ToString("F2")</td></tr>
+                        <tr><td>医保金额</td><td>@result.Data.MedicalAmount.ToString("F2")</td></tr>
+                        <tr><td>自付金额</td><td>@result.Data.SelfPayAmount.ToString("F2")</td></tr>
+                        <tr><td>结算状态</td><td>@result.Data.SettlementStatus</td></tr>
+                        <tr><td>创建时间</td><td>@result.Data.CreatedAt</td></tr>
+                    </table>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="alert alert-warning">
+                未找到结算记录
+            </div>
+        }
+    }
+</div>

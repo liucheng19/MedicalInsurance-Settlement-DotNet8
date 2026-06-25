@@ -1,0 +1,121 @@
+@model List<Web.Front.Controllers.ServiceStatus>
+@{
+    ViewData["Title"] = "服务监控";
+}
+
+<div class="container">
+    <h2>服务状态监控</h2>
+    <div class="monitor-grid">
+        @if (Model != null && Model.Any())
+        {
+            foreach (var service in Model)
+            {
+                <div class="monitor-card @(service.IsHealthy ? "card-online" : "card-offline")">
+                    <div class="monitor-header">
+                        <h3>@service.ServiceName</h3>
+                        <span class="status-indicator @(service.IsHealthy ? "status-online" : "status-offline")">
+                            @(service.IsHealthy ? "● 在线" : "● 离线")
+                        </span>
+                    </div>
+                    <div class="monitor-body">
+                        <p><strong>心跳状态:</strong> @(string.IsNullOrEmpty(service.HeartbeatStatus) ? "UNKNOWN" : service.HeartbeatStatus)</p>
+                        @if (service.LastHeartbeatTime.HasValue && service.LastHeartbeatTime.Value != default(DateTime))
+                        {
+                            <p><strong>最后心跳:</strong> @service.LastHeartbeatTime.Value.ToString("yyyy-MM-dd HH:mm:ss")</p>
+                        }
+                        @if (!string.IsNullOrEmpty(service.ServiceIp))
+                        {
+                            <p><strong>服务IP:</strong> @service.ServiceIp</p>
+                        }
+                        @if (service.ServicePort.HasValue && service.ServicePort.Value > 0)
+                        {
+                            <p><strong>服务端口:</strong> @service.ServicePort.Value</p>
+                        }
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <p>暂无服务数据</p>
+        }
+    </div>
+    <div class="refresh-btn">
+        <button onclick="location.reload()" class="btn btn-primary">刷新状态</button>
+        <a href="/Settlement" class="btn btn-secondary">提交结算</a>
+        <a href="/Settlement/Query" class="btn btn-secondary">查询结算单</a>
+    </div>
+</div>
+
+<style>
+    .monitor-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 16px;
+        margin: 20px 0;
+    }
+    .monitor-card {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 16px;
+        background: #fff;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    .card-online {
+        border-left: 4px solid #28a745;
+    }
+    .card-offline {
+        border-left: 4px solid #dc3545;
+        background: #fafafa;
+    }
+    .monitor-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 12px;
+    }
+    .monitor-header h3 {
+        margin: 0;
+        font-size: 18px;
+    }
+    .status-indicator {
+        padding: 4px 12px;
+        border-radius: 12px;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .status-online {
+        background: #d4edda;
+        color: #155724;
+    }
+    .status-offline {
+        background: #f8d7da;
+        color: #721c24;
+    }
+    .monitor-body p {
+        margin: 6px 0;
+        color: #555;
+    }
+    .refresh-btn {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .btn {
+        display: inline-block;
+        padding: 8px 16px;
+        margin: 0 4px;
+        border-radius: 4px;
+        text-decoration: none;
+        border: none;
+        cursor: pointer;
+        font-size: 14px;
+    }
+    .btn-primary {
+        background: #007bff;
+        color: white;
+    }
+    .btn-secondary {
+        background: #6c757d;
+        color: white;
+    }
+</style>
